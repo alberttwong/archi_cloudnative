@@ -1,5 +1,5 @@
 # archi_openshift
-Red Hat OpenShift Architectural Models using Archi
+Red Hat OpenShift Architectural Models using Archi.   Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management.  Infrastructure components include OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Middleware.
 
 ## What is Archi
 The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
