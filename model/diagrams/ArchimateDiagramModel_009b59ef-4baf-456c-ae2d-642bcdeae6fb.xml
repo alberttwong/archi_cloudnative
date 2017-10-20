@@ -8,7 +8,7 @@
       id="ecf94ce5-356d-4770-b8da-6cce34a927ad">
     <bounds
         x="684"
-        y="192"
+        y="216"
         width="169"
         height="145"/>
     <archimateElement
@@ -22,7 +22,7 @@
         x="60"
         y="24"
         width="613"
-        height="73"/>
+        height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="bd65a292-b88c-48ab-89c5-e6c4ac100cf3">
@@ -44,9 +44,9 @@
       id="7ea1b2e7-e426-4aa5-9e2b-2eea8348646c">
     <bounds
         x="60"
-        y="108"
+        y="120"
         width="613"
-        height="73"/>
+        height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="401938a8-c7dd-441f-988d-906cb9c95004">
@@ -68,7 +68,7 @@
       id="2110d2fc-c72c-4f9a-b994-6f51189d432d">
     <bounds
         x="516"
-        y="192"
+        y="216"
         width="157"
         height="145"/>
     <children
@@ -92,7 +92,7 @@
       id="2074a6eb-05e3-4669-99c4-4ccf81ed9cbf">
     <bounds
         x="516"
-        y="348"
+        y="372"
         width="157"
         height="109"/>
     <children
@@ -116,7 +116,7 @@
       id="ecf26046-0f1a-4d3e-bcbc-d5b1ecc0fe0d">
     <bounds
         x="60"
-        y="192"
+        y="216"
         width="445"
         height="265"/>
     <children
@@ -176,9 +176,9 @@
       id="3d2d25da-4a96-429f-971c-5afdbb0b26e7">
     <bounds
         x="60"
-        y="468"
+        y="492"
         width="613"
-        height="49"/>
+        height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="57fb9ad6-9a3b-4129-966f-e180bb12e240">
@@ -209,7 +209,7 @@
       <bounds
           x="288"
           y="24"
-          width="120"
+          width="168"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
@@ -219,7 +219,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="f4106e8d-5075-4dcc-ae35-5748608e11d7">
       <bounds
-          x="420"
+          x="468"
           y="24"
           width="120"
           height="55"/>
@@ -236,7 +236,7 @@
       id="63da979f-96db-4674-b021-d29fb6f949ab">
     <bounds
         x="708"
-        y="237"
+        y="261"
         width="120"
         height="55"/>
     <archimateElement
