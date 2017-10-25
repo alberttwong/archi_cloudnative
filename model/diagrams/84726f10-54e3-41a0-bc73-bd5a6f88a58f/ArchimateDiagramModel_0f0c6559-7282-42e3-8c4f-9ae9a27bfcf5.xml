@@ -104,6 +104,10 @@
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_b67df2f3-4f46-4331-8e89-9de048966f48.xml#b67df2f3-4f46-4331-8e89-9de048966f48"/>
     </sourceConnections>
+    <sourceConnections
+        id="1f55a9be-0945-45f9-b9ec-066189ace1ad"
+        source="876155c8-7e92-4b31-93dd-15158aa34a39"
+        target="a505625b-c041-46e9-9709-204b33dcfe55"/>
     <bounds
         x="192"
         y="288"
@@ -138,6 +142,10 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="282bdda5-d226-418d-b9b2-7eed3b7e1f84"
       targetConnections="bc47739f-96ea-473e-9e16-aab267e732c9 6107228c-50bf-4d32-b54d-bc96512526a9">
+    <sourceConnections
+        id="f180d818-f089-48eb-bca8-ec967d7ab41e"
+        source="282bdda5-d226-418d-b9b2-7eed3b7e1f84"
+        target="a505625b-c041-46e9-9709-204b33dcfe55"/>
     <bounds
         x="36"
         y="252"
@@ -188,5 +196,17 @@
         y="132"
         width="125"
         height="85"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a505625b-c041-46e9-9709-204b33dcfe55"
+      targetConnections="f180d818-f089-48eb-bca8-ec967d7ab41e 1f55a9be-0945-45f9-b9ec-066189ace1ad"
+      textAlignment="1"
+      content="Need more information about AS400 capabilities, 3rd party data sources and data flow paths.">
+    <bounds
+        x="60"
+        y="360"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
