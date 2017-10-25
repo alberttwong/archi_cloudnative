@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="System Context: Property and Casualty Insurance"
+    name="System Context"
     id="db863b41-ba0f-4497-a07a-9f1e2bad3297">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
