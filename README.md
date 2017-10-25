@@ -1,5 +1,5 @@
-# archi_openshift
-Red Hat OpenShift Architectural Models using Archi.   Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management.  Infrastructure components include OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Middleware.
+# archi_cloudnative
+Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management. Infrastructure components include Red Hat OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Middleware.
 
 ## Sample Diagrams
 ### Component Model
