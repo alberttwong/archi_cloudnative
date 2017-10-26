@@ -69,9 +69,9 @@
           href="ServingRelationship_ec033996-9de7-4c1a-9666-87678127cd1e.xml#ec033996-9de7-4c1a-9666-87678127cd1e"/>
     </sourceConnections>
     <bounds
-        x="296"
+        x="264"
         y="288"
-        width="120"
+        width="152"
         height="55"/>
     <archimateElement
         xsi:type="archimate:ApplicationCollaboration"

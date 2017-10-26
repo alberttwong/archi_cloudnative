@@ -134,7 +134,7 @@
       id="d029771b-47a1-4237-aba6-c219aeac500f"
       targetConnections="fab02aa4-f8df-4816-8b25-4c66c35a5bcd"
       textAlignment="1"
-      content="* Policy&#xA;* Billing&#xA;* Cliams&#xA;* Distribution&#xA;* Business Intelligence&#xA;* CRM&#xA;* Reinsurance">
+      content="* Policy&#xA;* Billing&#xA;* Claims&#xA;* Distribution&#xA;* Business Intelligence&#xA;* CRM&#xA;* Reinsurance">
     <bounds
         x="666"
         y="360"
@@ -156,7 +156,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="c0562016-7df7-4405-aae4-3f3ca6c96be5"
-      targetConnections="3ca2e80c-2180-45d9-8354-1af62dbd286b 2da4ae53-81c4-4f60-a7cc-4d32731bed90 ac014c0b-a4fe-4cd7-ac14-638e494ddcbc 8ef9b3fc-3695-4783-a3e3-3806ecebe12e 28b65dbc-2728-4e94-84f1-e1b0264750c4">
+      targetConnections="3ca2e80c-2180-45d9-8354-1af62dbd286b 2da4ae53-81c4-4f60-a7cc-4d32731bed90 ac014c0b-a4fe-4cd7-ac14-638e494ddcbc 8ef9b3fc-3695-4783-a3e3-3806ecebe12e 28b65dbc-2728-4e94-84f1-e1b0264750c4 6fc430ec-ac33-41ba-b4e9-e43890cee4b4">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="3e8db8e0-260b-4ce7-b57f-c20c182d0af0"
@@ -420,5 +420,20 @@
         y="439"
         width="93"
         height="42"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="932fa57f-593d-4fb1-a206-9b8120c3f5d0"
+      textAlignment="1"
+      content="* Responsive Web Design&#xA;* Globalization&#xA;* Autoscaling due to demand">
+    <sourceConnections
+        id="6fc430ec-ac33-41ba-b4e9-e43890cee4b4"
+        source="932fa57f-593d-4fb1-a206-9b8120c3f5d0"
+        target="c0562016-7df7-4405-aae4-3f3ca6c96be5"/>
+    <bounds
+        x="744"
+        y="167"
+        width="185"
+        height="63"/>
   </children>
 </archimate:ArchimateDiagramModel>
