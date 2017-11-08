@@ -226,4 +226,15 @@
         xsi:type="archimate:BusinessService"
         href="BusinessService_8ec9f66f-4096-4315-bbe4-d307bb7de75e.xml#8ec9f66f-4096-4315-bbe4-d307bb7de75e"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="302358b5-d6cd-4eb3-bb16-7963b37a2157"
+      textAlignment="1"
+      content="ARTS Retail Standards">
+    <bounds
+        x="477"
+        y="418"
+        width="185"
+        height="80"/>
+  </children>
 </archimate:ArchimateDiagramModel>
