@@ -72,7 +72,7 @@
       textAlignment="1"
       content="All stateful information is stored in cache or database">
     <bounds
-        x="274"
+        x="60"
         y="516"
         width="185"
         height="80"/>
@@ -412,5 +412,17 @@
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_11113a54-0ddc-4fe2-9417-720d9e0d5fef.xml#11113a54-0ddc-4fe2-9417-720d9e0d5fef"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="76bf7572-cd88-428a-adc7-1243e4aac3bc">
+    <bounds
+        x="307"
+        y="540"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_513ed459-c577-499d-9103-00461dc57eb2.xml#513ed459-c577-499d-9103-00461dc57eb2"/>
   </children>
 </archimate:ArchimateDiagramModel>
