@@ -1,5 +1,13 @@
 # archi_cloudnative
-Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management. Infrastructure components include Red Hat OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Middleware.
+Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management. Infrastructure components include Red Hat OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Middleware.  Includes material and architectural thinking from the following books.
+
+* https://www.openshift.com/promotions/for-developers.html
+* https://www.openshift.com/promotions/devops-with-openshift.html
+* https://developers.redhat.com/promotions/microservices-for-java-developers/
+* https://developers.redhat.com/promotions/distributed-javaee-architecture/
+* https://www.openshift.com/promotions/docker-security.html
+* https://content.pivotal.io/ebooks/migrating-to-cloud-native-application-architectures
+* https://content.pivotal.io/ebooks/beyond-the-12-factor-app
 
 ## Sample Diagrams
 ### Component Model
