@@ -455,7 +455,7 @@
       id="f9e7df60-206e-4bbd-ae2f-9ee9ffe60d8c">
     <bounds
         x="157"
-        y="120"
+        y="142"
         width="120"
         height="55"/>
     <archimateElement
@@ -494,7 +494,7 @@
     </sourceConnections>
     <bounds
         x="528"
-        y="122"
+        y="142"
         width="120"
         height="55"/>
     <archimateElement
@@ -533,7 +533,7 @@
     </sourceConnections>
     <bounds
         x="840"
-        y="122"
+        y="142"
         width="120"
         height="55"/>
     <archimateElement
@@ -717,5 +717,16 @@
         y="142"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="0778c707-6ea9-4b82-b087-e3652b93df5b"
+      textAlignment="1"
+      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data, block (AWS EFS) and object storage (AWS S3) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
+    <bounds
+        x="48"
+        y="12"
+        width="745"
+        height="121"/>
   </children>
 </archimate:ArchimateDiagramModel>
