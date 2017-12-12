@@ -22,6 +22,9 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 ### Operational Model: Containers-As-A-Service View
 ![Operational Model: Containers-As-A-Service View](https://github.com/alberttwong/archi_openshift/blob/master/images/Operational%20Model:%20Containers-as-a-Service%20View.png)
 
+### Operational Model: Red Hat OpenShift on AWS Reference Architecture
+![Operational Model: OpenShift on AWS](https://github.com/alberttwong/archi_openshift/blob/master/images/Operational%20Model:%20Data%20Center%20View.png)
+
 ### What is Archi
 The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
 
