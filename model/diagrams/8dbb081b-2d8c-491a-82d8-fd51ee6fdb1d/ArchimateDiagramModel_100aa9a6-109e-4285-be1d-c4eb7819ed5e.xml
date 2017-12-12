@@ -261,7 +261,7 @@
       </sourceConnections>
       <bounds
           x="48"
-          y="120"
+          y="108"
           width="120"
           height="55"/>
       <archimateElement
@@ -442,7 +442,7 @@
           href="ServingRelationship_4a8db9d9-6956-451b-b6a4-a6e20c147a60.xml#4a8db9d9-6956-451b-b6a4-a6e20c147a60"/>
     </sourceConnections>
     <bounds
-        x="432"
+        x="396"
         y="648"
         width="120"
         height="55"/>
@@ -452,19 +452,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="f9e7df60-206e-4bbd-ae2f-9ee9ffe60d8c">
-    <bounds
-        x="157"
-        y="142"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Node"
-        href="Node_67bf56cb-9619-45cd-8e80-bdeeb4cb66b8.xml#67bf56cb-9619-45cd-8e80-bdeeb4cb66b8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="ee090856-9c21-4ad1-9665-97edb0c9b305">
+      id="ee090856-9c21-4ad1-9665-97edb0c9b305"
+      targetConnections="fe865084-7015-428e-986d-b3399d3a8ccb">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="dfb35e83-9ba3-4713-b6ad-e85943b1d2c4"
@@ -494,7 +483,7 @@
     </sourceConnections>
     <bounds
         x="528"
-        y="142"
+        y="162"
         width="120"
         height="55"/>
     <archimateElement
@@ -503,7 +492,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="5bed5547-8f5d-4fef-9ce4-55070482ffc5">
+      id="5bed5547-8f5d-4fef-9ce4-55070482ffc5"
+      targetConnections="d2f4a03a-9099-403e-bfb6-e0076b7fef3c">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="777dbe5d-6c38-46d2-b97e-7a57b4d3ad60"
@@ -533,7 +523,7 @@
     </sourceConnections>
     <bounds
         x="840"
-        y="142"
+        y="162"
         width="120"
         height="55"/>
     <archimateElement
@@ -688,7 +678,7 @@
           href="ServingRelationship_6b8f9033-6476-4717-9c59-bc5bf7807ffc.xml#6b8f9033-6476-4717-9c59-bc5bf7807ffc"/>
     </sourceConnections>
     <bounds
-        x="564"
+        x="541"
         y="648"
         width="120"
         height="55"/>
@@ -703,7 +693,7 @@
       content="Master Nodes are replicas of each other and are synced via peer to peer.">
     <bounds
         x="1166"
-        y="229"
+        y="216"
         width="185"
         height="80"/>
   </children>
@@ -714,7 +704,30 @@
       content="All master, infrastructure and application nodes have network connectivity between each other.">
     <bounds
         x="1166"
-        y="142"
+        y="117"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="cb5ef341-ce49-471b-b2ba-35204ff6e292"
+      textAlignment="1"
+      content="Public IPs are assigned to restricted to key entry points.">
+    <sourceConnections
+        id="fe865084-7015-428e-986d-b3399d3a8ccb"
+        source="cb5ef341-ce49-471b-b2ba-35204ff6e292"
+        target="ee090856-9c21-4ad1-9665-97edb0c9b305"/>
+    <sourceConnections
+        id="d2f4a03a-9099-403e-bfb6-e0076b7fef3c"
+        source="cb5ef341-ce49-471b-b2ba-35204ff6e292"
+        target="5bed5547-8f5d-4fef-9ce4-55070482ffc5"/>
+    <sourceConnections
+        id="cbe7c91e-d821-49e8-8d2e-c61dfdaa4859"
+        source="cb5ef341-ce49-471b-b2ba-35204ff6e292"
+        target="c825238e-a765-4498-8c70-02cb82a6b916"/>
+    <bounds
+        x="1166"
+        y="24"
         width="185"
         height="80"/>
   </children>
@@ -722,11 +735,24 @@
       xsi:type="archimate:DiagramModelNote"
       id="0778c707-6ea9-4b82-b087-e3652b93df5b"
       textAlignment="1"
-      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data, block (AWS EFS) and object storage (AWS S3) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
+      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data (script), block (AWS EFS) and object storage (AWS S3) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
     <bounds
         x="48"
         y="12"
         width="745"
         height="121"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="c825238e-a765-4498-8c70-02cb82a6b916"
+      targetConnections="cbe7c91e-d821-49e8-8d2e-c61dfdaa4859">
+    <bounds
+        x="192"
+        y="162"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Device"
+        href="Device_5cdf8728-b799-4c6e-acea-df22df128c07.xml#5cdf8728-b799-4c6e-acea-df22df128c07"/>
   </children>
 </archimate:ArchimateDiagramModel>
