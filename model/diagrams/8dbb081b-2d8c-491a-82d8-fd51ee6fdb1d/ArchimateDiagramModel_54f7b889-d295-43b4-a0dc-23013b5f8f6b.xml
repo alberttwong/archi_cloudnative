@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Operational Model: Data Center View Detail"
     id="54f7b889-d295-43b4-a0dc-23013b5f8f6b"
-    documentation="1 baston&#xA;3 master&#xA;3 infras&#xA;6 app (12 cores of OCP)&#xA;4 cloudforms&#xA;3 storage (CNS)&#xA;3 Ansible Tower&#xA;3 Satellite &#xA;==&#xA;26 VMs needed.">
+    documentation="1 baston (t2.micro)&#xA;3 master (m4.xlarge)&#xA;3 infras (m4.xlarge)&#xA;6 app (12 cores of OCP, t2.large)&#xA;4 cloudforms (m4.xlarge)&#xA;3 storage ()&#xA;3 Ansible Tower (m4.xlarge)&#xA;3 Satellite (i3.xlarge storage optimzed) &#xA;==&#xA;20 hosts needed with 6 application hosts = 26 hosts in total.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="d552dbc1-e5c2-4622-90b0-a0a88c6dfbf8"
@@ -451,6 +451,10 @@
         id="59529dde-4da8-4bd4-af83-85dff573c7da"
         targetConnections="6b079e22-1d26-48dc-80e3-64cf9c88925d"
         fillColor="#ffd478">
+      <sourceConnections
+          id="9b04d4e9-a9f1-4a3a-91ab-1654ca779f8f"
+          source="59529dde-4da8-4bd4-af83-85dff573c7da"
+          target="99f583fb-75f7-4c6c-b040-dfa9144c426b"/>
       <bounds
           x="407"
           y="36"
@@ -1026,7 +1030,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="ab42153c-55d3-49bc-a0e7-b548ac7ef3c0"
       textAlignment="1"
-      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data (script), certificates (scripts), AWS objects (scripts), storage (AWS EBS) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
+      content="Cloud Native Architecture based off of Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in this architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data (script), certificates (scripts), AWS objects (scripts), storage (RH Storage) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
     <bounds
         x="48"
         y="12"
@@ -1166,7 +1170,7 @@
       id="6ffa4c7a-389b-4b1e-b1fb-2bc8c0be2ad6"
       targetConnections="49f960c2-f027-40d8-9025-a2812a1a3123 c2d7dbf0-fdcc-4178-9b03-504ba7456b8d"
       textAlignment="1"
-      content="Master and Infrastructure Nodes are m4.xlarge.">
+      content="Master and Infrastructure Nodes are m4.xlarge (4 vCPU, 16gb mem).">
     <bounds
         x="36"
         y="750"
@@ -1338,11 +1342,11 @@
       id="64895630-34fe-4e41-8e39-d04fbf13a64b"
       targetConnections="ab1d7a4d-6446-43d6-afe2-3057bc057697"
       textAlignment="1"
-      content="Used for executing disaster recovery and other automation scripts.">
+      content="Used for executing disaster recovery and other automation scripts. Ansible Tower instances are m4.xlarge (4 vCPU, 16gb).">
     <bounds
         x="1548"
         y="753"
-        width="185"
+        width="241"
         height="80"/>
   </children>
   <children
@@ -1362,11 +1366,11 @@
       id="7dd18199-e35f-42a6-aaee-6de8f0de3da4"
       targetConnections="8fb59015-fed1-4b93-92fd-b6990cc67860"
       textAlignment="1"
-      content="Satellite Server doubles as capsule for Zone A.">
+      content="Satellite Server doubles as capsule for Zone A. Server and Capsule instances are i3.xlarge (4 vCPU, 16gb) storage optimized.">
     <bounds
         x="36"
         y="840"
-        width="185"
+        width="229"
         height="80"/>
   </children>
   <children
@@ -1391,5 +1395,28 @@
         y="216"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="95b75ff0-9be4-4b01-9c3b-5651ee6b5be1"
+      textAlignment="1"
+      content="Red Hat Insights installed on all hosts.">
+    <bounds
+        x="1836"
+        y="24"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="99f583fb-75f7-4c6c-b040-dfa9144c426b"
+      targetConnections="9b04d4e9-a9f1-4a3a-91ab-1654ca779f8f"
+      textAlignment="1"
+      content="Cloudforms instances are m4.xlarge (4 vCPU, 16gb mem).">
+    <bounds
+        x="636"
+        y="864"
+        width="185"
+        height="56"/>
   </children>
 </archimate:ArchimateDiagramModel>
