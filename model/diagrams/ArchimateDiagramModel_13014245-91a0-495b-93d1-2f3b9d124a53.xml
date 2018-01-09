@@ -251,9 +251,9 @@
       textAlignment="1">
     <bounds
         x="1176"
-        y="324"
+        y="312"
         width="445"
-        height="301"/>
+        height="313"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="03e7337e-7391-4c38-a7fe-97e25ed51214">
@@ -526,9 +526,9 @@
       textAlignment="1">
     <bounds
         x="840"
-        y="324"
+        y="312"
         width="301"
-        height="301"/>
+        height="313"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="db311d0d-a3bb-455e-a67d-86d282235736"

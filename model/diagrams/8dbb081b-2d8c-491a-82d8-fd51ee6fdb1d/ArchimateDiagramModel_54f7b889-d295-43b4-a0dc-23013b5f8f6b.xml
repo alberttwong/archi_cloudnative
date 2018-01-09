@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Operational Model: Data Center View Detail"
     id="54f7b889-d295-43b4-a0dc-23013b5f8f6b"
-    documentation="1 baston (t2.micro)&#xA;3 master (no cost with OCP, m4.xlarge)&#xA;3 infrastructure (no cost with OCP, m4.xlarge)&#xA;6 application (12 cores of OCP, t2.large)&#xA;6 cloudforms (no cost with OCP, m4.xlarge)&#xA;3 storage (i3.xlarge)&#xA;3 Ansible Tower (m4.xlarge)&#xA;==&#xA;19 hosts needed with 6 application hosts = 25 hosts in total for each environment.">
+    documentation="1 baston (t2.micro)&#xA;3 master (no cost with OCP, m4.xlarge)&#xA;3 infrastructure (no cost with OCP, m4.xlarge)&#xA;6 application (12 cores of OCP, t2.large)&#xA;6 cloudforms (no cost with OCP, m4.xlarge)&#xA;3 storage (i3.xlarge)&#xA;6 Ansible Tower (m4.xlarge)&#xA;==&#xA;22 hosts needed with 6 application hosts = 28 hosts in total for each environment.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="d552dbc1-e5c2-4622-90b0-a0a88c6dfbf8"
@@ -321,6 +321,10 @@
         id="9983fd4c-7fd7-4c29-965a-f97654271016"
         targetConnections="b203d3b8-06d5-49a0-b293-0ebd0b57382b"
         fillColor="#d783ff">
+      <sourceConnections
+          id="574512ba-164b-4a48-9fa2-13e84a973b3f"
+          source="9983fd4c-7fd7-4c29-965a-f97654271016"
+          target="64895630-34fe-4e41-8e39-d04fbf13a64b"/>
       <bounds
           x="276"
           y="144"
@@ -918,30 +922,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="d5616f4a-5f67-4a21-920c-18975126471d">
-      <bounds
-          x="12"
-          y="300"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_9210eb6b-928d-491e-85e9-93fb9262292f.xml#9210eb6b-928d-491e-85e9-93fb9262292f"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="383724d8-3cc0-4ef8-a032-ae92df25899e">
-      <bounds
-          x="12"
-          y="234"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_1a4dbcb0-f043-4dc6-96c0-9d91da2eab1c.xml#1a4dbcb0-f043-4dc6-96c0-9d91da2eab1c"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="5f74fcdb-5ace-49ce-9938-4544f63cbac2"
         targetConnections="d1039d47-c676-410e-b1a2-a62b8beca4a5"
         fillColor="#d783ff">
@@ -1384,12 +1364,12 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="64895630-34fe-4e41-8e39-d04fbf13a64b"
-      targetConnections="ab1d7a4d-6446-43d6-afe2-3057bc057697"
+      targetConnections="ab1d7a4d-6446-43d6-afe2-3057bc057697 574512ba-164b-4a48-9fa2-13e84a973b3f"
       textAlignment="1"
       content="Used for executing disaster recovery and other automation scripts. Ansible Tower instances are m4.xlarge (4 vCPU, 16gb).">
     <bounds
-        x="1464"
-        y="750"
+        x="1554"
+        y="747"
         width="241"
         height="80"/>
   </children>
@@ -1398,7 +1378,7 @@
       id="b0bbe5c2-cfdb-4d63-9011-6ffd55665747"
       targetConnections="aeceb12a-a770-492e-8cd1-e0b0a1201a51"
       textAlignment="1"
-      content="Aggregate Cloudforms for the entire region.  This is the instance to login to see the entire region's resources.">
+      content="This is the instance to login to see the entire region's resources.">
     <bounds
         x="192"
         y="750"
@@ -1483,7 +1463,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="830ac05c-683c-4db5-974e-dcc01eb34eef"
-      targetConnections="7582b561-7b45-4b02-894f-03a1997f1581">
+      targetConnections="7582b561-7b45-4b02-894f-03a1997f1581"
+      fillColor="#d783ff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="c365ed83-4a0f-40c2-b257-f78202c40063"
