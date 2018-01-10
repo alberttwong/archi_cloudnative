@@ -128,7 +128,8 @@
         xsi:type="canvas:CanvasModelSticky"
         id="_Wu6XWbtrEee7vaBWSFR7wg"
         fillColor="#ffff95"
-        content="Commit code into source control"
+        content="Commit code into source control (Git Source Control)"
+        notes="Git Source Control"
         borderColor="#c0c0c0"
         textPosition="4">
       <sourceConnections
@@ -149,7 +150,7 @@
         id="_Wu6XW7trEee7vaBWSFR7wg"
         targetConnections="_Wu6XWrtrEee7vaBWSFR7wg"
         fillColor="#ffff95"
-        content="Triggers CI"
+        content="Triggers CI (Jenkins in OpenShift)"
         borderColor="#c0c0c0"
         textPosition="4">
       <sourceConnections
@@ -170,7 +171,7 @@
         id="_Wu6XXbtrEee7vaBWSFR7wg"
         targetConnections="_Wu6XXLtrEee7vaBWSFR7wg"
         fillColor="#ffff95"
-        content="Compile Code"
+        content="Compile Code (OpenShift new container build and upload into registry)"
         borderColor="#c0c0c0"
         textPosition="4">
       <sourceConnections
@@ -191,7 +192,7 @@
         id="_Wu6XX7trEee7vaBWSFR7wg"
         targetConnections="_Wu6XXrtrEee7vaBWSFR7wg"
         fillColor="#ffff95"
-        content="Deploy Code"
+        content="Deploy Code (Deploy application within OpenShift)"
         borderColor="#c0c0c0"
         textPosition="4">
       <sourceConnections
@@ -233,7 +234,7 @@
         id="_Wu6XY7trEee7vaBWSFR7wg"
         targetConnections="_Wu6XYrtrEee7vaBWSFR7wg"
         fillColor="#ffff95"
-        content="Results pass or failure of Build"
+        content="Results pass or failure of Build (Jenkins dashboard within OpenShift)"
         borderColor="#c0c0c0"
         textPosition="4">
       <sourceConnections
