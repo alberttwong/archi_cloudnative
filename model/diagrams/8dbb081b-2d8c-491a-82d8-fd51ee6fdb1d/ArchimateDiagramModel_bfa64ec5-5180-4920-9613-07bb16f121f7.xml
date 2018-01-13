@@ -17,7 +17,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="bc0e37af-3888-49e3-9360-aec6e08348c1"
-        fillColor="#fefc78">
+        fillColor="#73fdff">
       <bounds
           x="72"
           y="24"
@@ -522,5 +522,29 @@
     <archimateElement
         xsi:type="archimate:Node"
         href="Node_69c68fd5-c7b6-43a4-ac3f-eef890a8df94.xml#69c68fd5-c7b6-43a4-ac3f-eef890a8df94"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="1b39e583-1738-4d24-982c-9576f31c3a3c"
+      name="Remote Data Center"
+      textAlignment="1">
+    <bounds
+        x="1656"
+        y="103"
+        width="145"
+        height="217"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="125f9718-a5fa-4241-ab11-ce4273f1ada0"
+        fillColor="#fefc78">
+      <bounds
+          x="12"
+          y="24"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_62752f8f-c45e-4b03-9af6-e99cc365a9d0.xml#62752f8f-c45e-4b03-9af6-e99cc365a9d0"/>
+    </children>
   </children>
 </archimate:ArchimateDiagramModel>
