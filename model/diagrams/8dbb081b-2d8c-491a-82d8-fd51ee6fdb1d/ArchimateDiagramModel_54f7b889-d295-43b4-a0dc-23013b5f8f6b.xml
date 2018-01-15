@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Operational Model: Data Center View Detail"
     id="54f7b889-d295-43b4-a0dc-23013b5f8f6b"
-    documentation="https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/deploying_and_managing_openshift_container_platform_3.6_on_amazon_web_services/&#xA;&#xA;Hosts&#xA;1 baston (t2.micro)&#xA;3 OCP master (no cost with OCP, m4.xlarge)&#xA;3 OCP infrastructure (no cost with OCP, m4.xlarge)&#xA;6 OCP application (12 cores of OCP, t2.large)&#xA;6 Cloudforms (no cost with OCP, m4.xlarge)&#xA;3 Storage (i3.xlarge)&#xA;6 Ansible Tower (m4.xlarge)&#xA;x Satellite&#xA;==&#xA;22 &quot;infastructure&quot; hosts to support OCP + 3 additional storage (another AWS region, other public cloud or on premises data center) + 6 OCP application hosts = 31 hosts in total for each environment (eg. lab, non production, production)&#xA;&#xA;AWS VPC Networking&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.&#xA;&#xA;AWS Security Group&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.">
+    documentation="https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/deploying_and_managing_openshift_container_platform_3.6_on_amazon_web_services/&#xA;&#xA;Hosts&#xA;1 baston (t2.micro)&#xA;3 OCP master (no cost with OCP, m4.xlarge)&#xA;3 OCP infrastructure (no cost with OCP, m4.xlarge)&#xA;6 OCP application (12 cores of OCP, t2.large)&#xA;6 Cloudforms (no cost with OCP, m4.xlarge)&#xA;3 Storage (i3.xlarge)&#xA;6 Ansible Tower (m4.xlarge)&#xA;3 Satellite (i3.xlarge)&#xA;==&#xA;Lab -> 25 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 31 hosts&#xA;Non production -> 25 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 31 hosts&#xA;Production with DR -> 25 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts + 3 additional storage (another AWS region, other public cloud or on premises data center) + 1 Ansible Tower DR + 1 Satellite Server = 36 hosts &#xA;&#xA;AWS VPC Networking&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.&#xA;&#xA;AWS Security Group&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="d552dbc1-e5c2-4622-90b0-a0a88c6dfbf8"
@@ -61,11 +61,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="df2e880f-0fc7-4e2a-99cd-1f2e34722f47"
-        targetConnections="8f22b429-8b91-4e75-affd-4cdd523aa8da ff5e18d5-eabd-4319-a971-7ce383216bca 382ccf30-4c80-4955-a307-53dd388027f3">
-      <sourceConnections
-          id="5a1767c1-14ca-4a15-be2c-52dea0a8db07"
-          source="df2e880f-0fc7-4e2a-99cd-1f2e34722f47"
-          target="debb8339-2fbf-49a1-b356-30ec2db0921a"/>
+        targetConnections="8f22b429-8b91-4e75-affd-4cdd523aa8da ff5e18d5-eabd-4319-a971-7ce383216bca 382ccf30-4c80-4955-a307-53dd388027f3 4946c8ae-9ee9-445b-b54c-3ebcb5303cb0">
       <bounds
           x="12"
           y="36"
@@ -263,10 +259,6 @@
             href="ServingRelationship_833f2b2f-66c3-4643-8033-f4182f9fce4d.xml#833f2b2f-66c3-4643-8033-f4182f9fce4d"/>
       </sourceConnections>
       <sourceConnections
-          id="41924b11-f3d7-49b6-86d9-78e9dc55d9ce"
-          source="27a268f4-5fdd-4e93-b1c7-735733cfa819"
-          target="b421eed6-659c-4307-8cc6-4b4f5f76e89a"/>
-      <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="e2f189cf-b2a7-4366-88a4-1efbe3ca21a1"
           source="27a268f4-5fdd-4e93-b1c7-735733cfa819"
@@ -370,7 +362,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c283fb0b-1aa6-4e84-b8ef-682b71204d2d"
-        targetConnections="7b7775cc-dd48-4392-acf6-32e850247c7e c8a279cd-f63a-4e14-bf53-381f551d5ad1 93e4a776-7fb6-4951-909d-d8c3db6888d9 4f6f8f88-911b-45bd-a279-b85cb151b9da">
+        targetConnections="7b7775cc-dd48-4392-acf6-32e850247c7e c8a279cd-f63a-4e14-bf53-381f551d5ad1 93e4a776-7fb6-4951-909d-d8c3db6888d9">
       <sourceConnections
           id="49f960c2-f027-40d8-9025-a2812a1a3123"
           source="c283fb0b-1aa6-4e84-b8ef-682b71204d2d"
@@ -693,7 +685,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="43d30d56-a177-44d0-a672-5fc1ef18fed7"
-        targetConnections="df5a090f-9e4e-4dc6-9e4f-1549a33561cb c1113ddf-f36e-4b7f-a8c0-904b14553b2f ab02aad9-090f-46da-9c6e-f8ea3e2e59a0 f639c35e-19ce-4ae1-90fa-d75a32e73e7b">
+        targetConnections="df5a090f-9e4e-4dc6-9e4f-1549a33561cb c1113ddf-f36e-4b7f-a8c0-904b14553b2f ab02aad9-090f-46da-9c6e-f8ea3e2e59a0">
       <bounds
           x="12"
           y="36"
@@ -918,10 +910,6 @@
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_64ed2d36-5f95-43c5-a936-f21467d94d47.xml#64ed2d36-5f95-43c5-a936-f21467d94d47"/>
       </sourceConnections>
-      <sourceConnections
-          id="8af7b3ab-b6f9-4f1e-8f81-b66c8cd06545"
-          source="a50e1e8d-3a8a-41e4-8345-f15a1ab7d3a5"
-          target="b421eed6-659c-4307-8cc6-4b4f5f76e89a"/>
       <bounds
           x="539"
           y="144"
@@ -1125,11 +1113,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="5dd33ec2-479c-4dd7-b83b-2b7d5311da5f"
       textAlignment="1"
-      content="All master, infrastructure and application nodes have network connectivity between each other.">
+      content="All OCP master, OCP infrastructure and OCP application nodes have network connectivity between each other.">
     <bounds
-        x="1320"
+        x="1296"
         y="17"
-        width="185"
+        width="209"
         height="80"/>
   </children>
   <children
@@ -1169,7 +1157,7 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="b421eed6-659c-4307-8cc6-4b4f5f76e89a"
-      targetConnections="41924b11-f3d7-49b6-86d9-78e9dc55d9ce 8af7b3ab-b6f9-4f1e-8f81-b66c8cd06545 8ac953a3-c5d8-40ea-b4b1-f0bb2b63864e"
+      targetConnections="8ac953a3-c5d8-40ea-b4b1-f0bb2b63864e"
       textAlignment="1"
       content="Data will be replicated peer to peer by RH Storage.  When more capacity or performance is needed, we can up the EC2 instance type or draw on more storage via AWS EBS.">
     <bounds
@@ -1193,9 +1181,9 @@
         source="3836d6d6-89df-4ae8-ad08-56f680ec8b75"
         target="52412f23-d9ed-4996-9c0a-8fb74424ba6d"/>
     <bounds
-        x="1320"
+        x="1296"
         y="108"
-        width="185"
+        width="209"
         height="37"/>
   </children>
   <children
@@ -1203,7 +1191,7 @@
       id="9042dc74-ef73-4d89-a68b-c8a03e4ee70f"
       targetConnections="b6efd77c-903e-49f4-99eb-b54e8fd6bbf8"
       textAlignment="1"
-      content="Currently do no foresee AWS EBS usage.  All storage is coming from the storage optimized EC2 instance (local attached SSD) running Red Hat Storage.">
+      content="Currently do no foresee AWS EBS and S3 usage.  All storage is coming from the storage optimized EC2 instance (local attached SSD) running Red Hat Storage.">
     <sourceConnections
         id="4d180338-fb06-48a6-b186-26f833e6c295"
         source="9042dc74-ef73-4d89-a68b-c8a03e4ee70f"
@@ -1213,41 +1201,6 @@
         y="840"
         width="220"
         height="92"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="24b1c2cb-aba7-46e5-90d4-2dfd1dc200d1"
-      targetConnections="0bb6b124-1cef-46ff-bc39-41f3bdce004f"
-      textAlignment="1"
-      content="Currently do no foresee AWS EBS usage.  All storage is coming from the storage optimized EC2 instance (local attached SSD) running Red Hat Storage.">
-    <sourceConnections
-        id="74ee0825-0641-4b71-b5a0-6314ff760a11"
-        source="24b1c2cb-aba7-46e5-90d4-2dfd1dc200d1"
-        target="cf0ceacf-edff-4e30-8aa2-451f60892c60"/>
-    <bounds
-        x="1188"
-        y="852"
-        width="265"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="83dbada4-1a34-4314-a5f5-70a747d71273"
-      textAlignment="1"
-      content="Currently do no foresee AWS EBS usage.  All storage is coming from the storage optimized EC2 instance (local attached SSD) running Red Hat Storage.">
-    <sourceConnections
-        id="2129f67f-de02-49d0-8b6e-19b7b63d9fcd"
-        source="83dbada4-1a34-4314-a5f5-70a747d71273"
-        target="9cbc89f0-cb9c-471a-865e-e70aa4166f35"/>
-    <sourceConnections
-        id="169bb30e-b866-4360-9c6a-d650ae011331"
-        source="83dbada4-1a34-4314-a5f5-70a747d71273"
-        target="7359d4c7-f10c-46e0-b36e-8ea78c5a4ba9"/>
-    <bounds
-        x="1860"
-        y="852"
-        width="252"
-        height="80"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1271,7 +1224,7 @@
       id="6ffa4c7a-389b-4b1e-b1fb-2bc8c0be2ad6"
       targetConnections="49f960c2-f027-40d8-9025-a2812a1a3123 c2d7dbf0-fdcc-4178-9b03-504ba7456b8d"
       textAlignment="1"
-      content="Master and Infrastructure Nodes are m4.xlarge (4 vCPU, 16gb mem).">
+      content="OCP master and OCP infrastructure Nodes are m4.xlarge (4 vCPU, 16gb mem).">
     <bounds
         x="36"
         y="750"
@@ -1306,10 +1259,6 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="0b5c7ecd-9ccb-4ed7-869f-ac40785ff4dc"
       fillColor="#ff89d8">
-    <sourceConnections
-        id="0bb6b124-1cef-46ff-bc39-41f3bdce004f"
-        source="0b5c7ecd-9ccb-4ed7-869f-ac40785ff4dc"
-        target="24b1c2cb-aba7-46e5-90d4-2dfd1dc200d1"/>
     <bounds
         x="1188"
         y="750"
@@ -1322,7 +1271,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="9cbc89f0-cb9c-471a-865e-e70aa4166f35"
-      targetConnections="2129f67f-de02-49d0-8b6e-19b7b63d9fcd"
       fillColor="#ff89d8">
     <bounds
         x="1860"
@@ -1359,7 +1307,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="cf0ceacf-edff-4e30-8aa2-451f60892c60"
-      targetConnections="74ee0825-0641-4b71-b5a0-6314ff760a11"
       fillColor="#ff89d8">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1382,7 +1329,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="7359d4c7-f10c-46e0-b36e-8ea78c5a4ba9"
-      targetConnections="169bb30e-b866-4360-9c6a-d650ae011331"
       fillColor="#ff89d8">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1637,20 +1583,15 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="debb8339-2fbf-49a1-b356-30ec2db0921a"
-      targetConnections="5a1767c1-14ca-4a15-be2c-52dea0a8db07"
       textAlignment="1"
-      content="Master Nodes are replicas of each other and are synced via peer to peer.">
+      content="OCP master nodes are replicas of each other and are synced via peer to peer.">
     <sourceConnections
-        id="f639c35e-19ce-4ae1-90fa-d75a32e73e7b"
+        id="4946c8ae-9ee9-445b-b54c-3ebcb5303cb0"
         source="debb8339-2fbf-49a1-b356-30ec2db0921a"
-        target="43d30d56-a177-44d0-a672-5fc1ef18fed7"/>
-    <sourceConnections
-        id="4f6f8f88-911b-45bd-a279-b85cb151b9da"
-        source="debb8339-2fbf-49a1-b356-30ec2db0921a"
-        target="c283fb0b-1aa6-4e84-b8ef-682b71204d2d"/>
+        target="df2e880f-0fc7-4e2a-99cd-1f2e34722f47"/>
     <bounds
-        x="1704"
-        y="745"
+        x="1644"
+        y="249"
         width="145"
         height="80"/>
   </children>
