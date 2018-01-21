@@ -217,6 +217,10 @@
           id="deb307cf-3699-4eb0-8096-dca6ad5da90e"
           source="3255c99e-30ff-45c5-871b-dd6674b97c53"
           target="b369924a-93a0-4321-9746-210cba253e4b"/>
+      <sourceConnections
+          id="6d8d2f0c-649a-44e9-8a6d-2dd24009a099"
+          source="3255c99e-30ff-45c5-871b-dd6674b97c53"
+          target="578db98f-7399-4559-af66-511f9bc67df1"/>
       <bounds
           x="540"
           y="36"
@@ -475,9 +479,9 @@
         targetConnections="926f59c0-3e1b-45f4-ae82-723bec9a3b81"
         fillColor="#ffd478">
       <sourceConnections
-          id="aeceb12a-a770-492e-8cd1-e0b0a1201a51"
+          id="9ceda33e-a353-4123-854c-9bb9d559a514"
           source="feb4de40-008c-4156-941d-b51ec2cf05e0"
-          target="b0bbe5c2-cfdb-4d63-9011-6ffd55665747"/>
+          target="d8f90b1b-0555-4797-9c07-c92580070b5c"/>
       <bounds
           x="407"
           y="36"
@@ -1362,18 +1366,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="b0bbe5c2-cfdb-4d63-9011-6ffd55665747"
-      targetConnections="aeceb12a-a770-492e-8cd1-e0b0a1201a51"
-      textAlignment="1"
-      content="This is the instance to login to see the entire region's resources.">
-    <bounds
-        x="192"
-        y="750"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="7dd18199-e35f-42a6-aaee-6de8f0de3da4"
       targetConnections="329032ed-5c09-4a57-ad37-a73a3ff3441b"
       textAlignment="1"
@@ -1639,5 +1631,29 @@
         y="17"
         width="97"
         height="128"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="d8f90b1b-0555-4797-9c07-c92580070b5c"
+      targetConnections="9ceda33e-a353-4123-854c-9bb9d559a514"
+      textAlignment="1"
+      content="Generally speaking, each Cloudforms instance can support 400 EC2 instances.">
+    <bounds
+        x="192"
+        y="750"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="578db98f-7399-4559-af66-511f9bc67df1"
+      targetConnections="6d8d2f0c-649a-44e9-8a6d-2dd24009a099"
+      textAlignment="1"
+      content="Generally speaking, each RH Storage host can support 400 client connections.">
+    <bounds
+        x="1884"
+        y="840"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
