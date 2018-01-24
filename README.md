@@ -8,6 +8,7 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 * https://www.openshift.com/promotions/docker-security.html
 * https://content.pivotal.io/ebooks/migrating-to-cloud-native-application-architectures
 * https://content.pivotal.io/ebooks/beyond-the-12-factor-app
+* https://thenewkingmakers.com
 
 ## Sample Diagrams
 ### System Context
