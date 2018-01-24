@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Datastore Cache"
+    id="07ccd904-c3c7-4398-a88e-14411b64c956"
+    documentation="Supports composite views of sql databases, nosql, hadoop, csv and other no relational data stores. "/>

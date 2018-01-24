@@ -5,6 +5,17 @@
     id="04d073b5-6d33-4834-99fa-e43c395303c1">
   <children
       xsi:type="archimate:DiagramModelGroup"
+      id="cc2c2f63-0aaf-465f-ad1f-3fcd88fdfd88"
+      name="Data Store"
+      textAlignment="1">
+    <bounds
+        x="816"
+        y="97"
+        width="289"
+        height="504"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
       id="9898b7b1-ff01-4c66-ba2b-9a8be79377c6"
       name="Container"
       textAlignment="1">
@@ -316,6 +327,14 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="e231e7bb-6e17-4c7e-8dd7-93dff041b333">
+      <sourceConnections
+          id="8bc12203-82f8-46f7-953f-96f53acff7d5"
+          source="e231e7bb-6e17-4c7e-8dd7-93dff041b333"
+          target="9403008e-a18f-4cca-9008-e6d4aa78e4a4"/>
+      <sourceConnections
+          id="bdc08449-5004-493a-abe3-9744bcd0f577"
+          source="e231e7bb-6e17-4c7e-8dd7-93dff041b333"
+          target="05065b5f-7b57-45a9-8b1a-31469d0f4057"/>
       <bounds
           x="36"
           y="36"
@@ -339,6 +358,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="9c1a563d-ed20-4955-8881-cf3f4d5a8a8b">
+      <sourceConnections
+          id="1f1ef9bb-014c-4e2e-9643-e71c497da5e7"
+          source="9c1a563d-ed20-4955-8881-cf3f4d5a8a8b"
+          target="e4bd80c3-0747-4772-a1f6-7a610688f0b2"/>
       <bounds
           x="36"
           y="36"
@@ -362,6 +385,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="39cc6764-ba98-47a7-87d6-e2ceddf30294">
+      <sourceConnections
+          id="095b6f91-3fc3-4c62-84e9-acda4d58ff1e"
+          source="39cc6764-ba98-47a7-87d6-e2ceddf30294"
+          target="ae7bd187-4576-4506-8b43-b92d5585b945"/>
       <bounds
           x="36"
           y="36"
@@ -424,5 +451,53 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_513ed459-c577-499d-9103-00461dc57eb2.xml#513ed459-c577-499d-9103-00461dc57eb2"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="9403008e-a18f-4cca-9008-e6d4aa78e4a4"
+      targetConnections="8bc12203-82f8-46f7-953f-96f53acff7d5"
+      textAlignment="1"
+      content="Common types of database are relational or NoSQL databases.">
+    <bounds
+        x="1224"
+        y="360"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="e4bd80c3-0747-4772-a1f6-7a610688f0b2"
+      targetConnections="1f1ef9bb-014c-4e2e-9643-e71c497da5e7"
+      textAlignment="1"
+      content="Common types of messaging are queue based or log based messaging.">
+    <bounds
+        x="1236"
+        y="492"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="05065b5f-7b57-45a9-8b1a-31469d0f4057"
+      targetConnections="bdc08449-5004-493a-abe3-9744bcd0f577"
+      textAlignment="1"
+      content="Databases usually store operational or reference data.  If storing reference data, this would be a master data.">
+    <bounds
+        x="1224"
+        y="216"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ae7bd187-4576-4506-8b43-b92d5585b945"
+      targetConnections="095b6f91-3fc3-4c62-84e9-acda4d58ff1e"
+      textAlignment="1"
+      content="Common types of caches are application level (memory grid) or database level (data virtualization) caches.">
+    <bounds
+        x="1212"
+        y="97"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

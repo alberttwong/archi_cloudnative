@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Component Model: Cloud Native Applications Layers"
-    id="c2b8995a-0b53-4477-bd18-c1cc2a8cf2fb">
+    id="c2b8995a-0b53-4477-bd18-c1cc2a8cf2fb"
+    documentation="The base will always have web servers, data grid/cache and databases.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="9128ec3a-c87c-40a3-b819-82f54b7fe792"

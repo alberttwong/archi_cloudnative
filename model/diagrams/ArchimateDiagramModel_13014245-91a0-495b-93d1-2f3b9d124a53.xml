@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Component Model: Cloud Native Applications Detail"
+    name="Component Model: Cloud Native Applications Software"
     id="13014245-91a0-495b-93d1-2f3b9d124a53">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -78,7 +78,7 @@
       <bounds
           x="144"
           y="24"
-          width="120"
+          width="193"
           height="55"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
