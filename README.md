@@ -16,8 +16,14 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 
 ![System Context Cloud Native Application Patterns](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/System%20Context:%20Cloud%20Native%20Application%20Patterns.png)
 
-### Cloud Native Application Layers
-![Component Model: Cloud Native Appliations Layers](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Layers%20with%20Mobile%2C%20Workflow%2C%20Rules.png)
+### Component Model:
+![Component Model: Cloud Native Applications]
+(https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications.png)
+
+![Component Model: Cloud Native Applications Layers](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Layers%20with%20Mobile%2C%20Workflow%2C%20Rules.png)
+
+![Component Model: Cloud Native Applications Data Centric]
+(https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Data%20Centric.png)
 
 ### Operational Model: Red Hat OpenShift on AWS Reference Architecture
 ![Operational Model: OpenShift on AWS](https://github.com/alberttwong/archi_openshift/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View.png)
