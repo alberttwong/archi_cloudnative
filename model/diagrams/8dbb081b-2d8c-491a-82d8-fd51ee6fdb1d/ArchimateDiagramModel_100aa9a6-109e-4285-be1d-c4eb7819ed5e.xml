@@ -420,11 +420,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="0778c707-6ea9-4b82-b087-e3652b93df5b"
       textAlignment="1"
-      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data (script), block (AWS EFS) and object storage (AWS S3) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
+      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance deployed in a single region with master and infrastructure nodes spread across 3 availability zones for resilience. &#xA;&#xA;When in disaster recovery, the master's node data (script), nfs (AWS EFS), block (AWS EBS) and object storage (AWS S3) needs to be exported to another region.   Red Hat Cloudforms and Red Hat Ansible automation scripts can help with cold or warm DR. ">
     <bounds
         x="48"
         y="12"
-        width="745"
+        width="793"
         height="121"/>
   </children>
   <children
@@ -470,6 +470,10 @@
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_7ef1cf67-1c62-411c-aa65-d63898ef07c8.xml#7ef1cf67-1c62-411c-aa65-d63898ef07c8"/>
     </sourceConnections>
+    <sourceConnections
+        id="77117f8b-5b60-48d7-a9e3-3400112a7cce"
+        source="13121ac0-5d80-4d48-ab01-eae291608d17"
+        target="ba463105-bd87-4ef9-ba2a-7c32e851e2d1"/>
     <bounds
         x="504"
         y="648"
@@ -563,6 +567,10 @@
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_5836b4e0-77e1-4911-bf72-26af6bd5d10f.xml#5836b4e0-77e1-4911-bf72-26af6bd5d10f"/>
     </sourceConnections>
+    <sourceConnections
+        id="1e1316b4-eb31-4c48-9627-08b8b1896617"
+        source="a7013e39-5a34-4ee7-b4bc-54b90ffeb031"
+        target="d2ddfa16-50e7-43fd-af01-52555c5a7140"/>
     <bounds
         x="696"
         y="648"
@@ -589,7 +597,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="4632a501-2343-4e51-8e5c-df8b85d00d19"
       textAlignment="1"
-      content="The Metrics and Logging (ELK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerate logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
+      content="The OCP Metrics and Logging (ELK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
     <sourceConnections
         id="c2ce1906-9d19-4c2b-b9cf-80bc5c2faf43"
         source="4632a501-2343-4e51-8e5c-df8b85d00d19"
@@ -599,5 +607,29 @@
         y="600"
         width="253"
         height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ba463105-bd87-4ef9-ba2a-7c32e851e2d1"
+      targetConnections="77117f8b-5b60-48d7-a9e3-3400112a7cce"
+      textAlignment="1"
+      content="AWS S3 storage is used to store container images. ">
+    <bounds
+        x="176"
+        y="609"
+        width="185"
+        height="50"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="d2ddfa16-50e7-43fd-af01-52555c5a7140"
+      targetConnections="1e1316b4-eb31-4c48-9627-08b8b1896617"
+      textAlignment="1"
+      content="AWS EFS is used to provide container persistent volumes.">
+    <bounds
+        x="176"
+        y="672"
+        width="185"
+        height="49"/>
   </children>
 </archimate:ArchimateDiagramModel>
