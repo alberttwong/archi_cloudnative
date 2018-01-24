@@ -572,4 +572,32 @@
         xsi:type="archimate:TechnologyService"
         href="TechnologyService_3af3b667-f6d8-473f-a7bf-e0d358023717.xml#3af3b667-f6d8-473f-a7bf-e0d358023717"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="49b4aec7-07bd-4006-8eca-024d1b941b0d"
+      targetConnections="c2ce1906-9d19-4c2b-b9cf-80bc5c2faf43">
+    <bounds
+        x="864"
+        y="648"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:TechnologyService"
+        href="TechnologyService_6d3a897c-0913-440b-93bc-e4b5d1865071.xml#6d3a897c-0913-440b-93bc-e4b5d1865071"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="4632a501-2343-4e51-8e5c-df8b85d00d19"
+      textAlignment="1"
+      content="The Metrics and Logging (ELK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerate logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
+    <sourceConnections
+        id="c2ce1906-9d19-4c2b-b9cf-80bc5c2faf43"
+        source="4632a501-2343-4e51-8e5c-df8b85d00d19"
+        target="49b4aec7-07bd-4006-8eca-024d1b941b0d"/>
+    <bounds
+        x="1032"
+        y="600"
+        width="253"
+        height="109"/>
+  </children>
 </archimate:ArchimateDiagramModel>
