@@ -1656,4 +1656,15 @@
         width="185"
         height="80"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ea357084-2b0f-433a-ba15-fc0dfe7aaa71"
+      textAlignment="1"
+      content="The OCP Metrics and Logging (ELK) feature requires containers to be deployed with block storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
+    <bounds
+        x="1188"
+        y="840"
+        width="289"
+        height="92"/>
+  </children>
 </archimate:ArchimateDiagramModel>
