@@ -490,7 +490,7 @@
       id="8cbd3cb5-5c37-4a65-90b2-89aa331f1903"
       targetConnections="9d84ba6e-9310-4857-9d30-497664622506 bf34ad18-9b06-4322-9b52-8f78125bd8b4"
       textAlignment="1"
-      content="Server replication of composite databases and their data is a standard feature of Red Hat JBoss Data Virtualization.">
+      content="Red Hat JBoss Data Virtualization does not have any sync features.">
     <bounds
         x="1452"
         y="125"
@@ -532,7 +532,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="0882fb5e-9522-453d-a8f5-a0fac003a345"
       textAlignment="1"
-      content="This diagram was created to visually explain how data is synced across mutiple datacenters.    &#xA;&#xA;Servers in each data center are “active” and are serving applications within their datacenter.   However there is a requirement to sync the data within the database.   Each software product syncs in a different manner.">
+      content="This diagram was created to visually explain how data can be synced across mutiple datacenters.    &#xA;&#xA;Imagine there is a requirement to send data from data center A to data center B and that servers in each data center are “active” and are serving applications within their datacenter.   There are several different methods to perform the &quot;sync&quot;. ">
     <bounds
         x="12"
         y="300"
