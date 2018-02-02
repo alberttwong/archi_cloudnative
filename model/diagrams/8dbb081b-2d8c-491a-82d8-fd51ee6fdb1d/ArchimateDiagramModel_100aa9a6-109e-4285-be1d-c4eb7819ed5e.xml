@@ -597,7 +597,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="4632a501-2343-4e51-8e5c-df8b85d00d19"
       textAlignment="1"
-      content="The OCP Metrics and Logging (ELK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
+      content="The OCP Metrics and Logging (EFK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
     <sourceConnections
         id="c2ce1906-9d19-4c2b-b9cf-80bc5c2faf43"
         source="4632a501-2343-4e51-8e5c-df8b85d00d19"
