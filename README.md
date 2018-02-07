@@ -21,12 +21,17 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 
 ![Component Model: Cloud Native Applications Layers](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Layers%20with%20Mobile%2C%20Workflow%2C%20Rules.png)
 
+### Component Model: Cloud Native Software Stack
+![Component Model: Cloud Native Applications Software Stack](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Software.png)
+
+### Component Model: Cloud Native Data
 ![Component Model: Cloud Native Applications Data Centric](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Data%20Centric.png)
 
 ### Operational Model: Red Hat OpenShift on AWS Reference Architecture
-![Operational Model: OpenShift on AWS](https://github.com/alberttwong/archi_openshift/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View.png)
+![Operational Model: OpenShift on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture.png)
 
-![Operational Model Detail: OpenShift on AWS](https://github.com/alberttwong/archi_openshift/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20Detail.png)
+### Operational Model: Cloud Native on AWS Reference Architecture
+![Operational Model Detail: Cloud Natve on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20Detail.png)
 
 ### What is Archi
 The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
