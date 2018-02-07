@@ -1299,7 +1299,7 @@
       id="6787ce51-6092-4efe-86b6-bdd6d2a54c85"
       targetConnections="3f33bb3f-a0a1-4516-a6d7-43690e7af9c9"
       textAlignment="1"
-      content="Currently do no foresee AWS EBS and S3 usage.  All storage is coming from the storage optimized EC2 instance (local attached SSD) running Red Hat Storage.">
+      content="Red Hat Storage will draw storage from AWS EBS.">
     <sourceConnections
         id="bf6aeb5b-3c27-4265-ac16-19af92a94aac"
         source="6787ce51-6092-4efe-86b6-bdd6d2a54c85"
@@ -1590,7 +1590,7 @@
       id="96f429f0-0df6-45c3-8c25-a4fa9343abec"
       targetConnections="ad668669-a35e-44dc-989f-b95064bac30b"
       textAlignment="1"
-      content="Storage instances are i3.xlarge (4 vCPU, 30.5gb mem, 1tb SSD) storage optimized on RHEL.  Storage is physically attached SSD.">
+      content="Storage instances are m4.2xlarge (8 vCPU, 32gb mem) on RHEL.">
     <bounds
         x="1812"
         y="252"
