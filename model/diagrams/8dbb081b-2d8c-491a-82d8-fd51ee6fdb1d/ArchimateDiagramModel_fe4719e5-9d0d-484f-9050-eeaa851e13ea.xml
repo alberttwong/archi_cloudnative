@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Operational Model: Data Center View Detail"
     id="fe4719e5-9d0d-484f-9050-eeaa851e13ea"
-    documentation="https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/deploying_and_managing_openshift_container_platform_3.6_on_amazon_web_services/&#xA;&#xA;Hosts&#xA;1 baston (t2.micro)&#xA;3 OCP master (no cost with OCP, m4.xlarge)&#xA;3 OCP infrastructure (no cost with OCP, m4.xlarge)&#xA;6 OCP application (12 cores of OCP, t2.large)&#xA;6 Cloudforms (no cost with OCP, m4.xlarge)&#xA;3 Storage (i3.xlarge)&#xA;6 Ansible Tower (m4.xlarge)&#xA;3 Satellite (i3.xlarge)&#xA;==&#xA;Lab -> 25 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 31 hosts&#xA;Non production -> 25 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 31 hosts&#xA;Production with DR -> 25 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts + 3 additional storage (another AWS region, other public cloud or on premises data center) + 1 Ansible Tower DR + 1 Satellite Server = 36 hosts &#xA;&#xA;AWS VPC Networking&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.&#xA;&#xA;AWS Security Group&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.">
+    documentation="https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/deploying_and_managing_openshift_container_platform_3.6_on_amazon_web_services/&#xA;&#xA;Hosts&#xA;2 baston (t2.micro)&#xA;3 OCP master (no cost with OCP, m4.xlarge)&#xA;3 OCP infrastructure (no cost with OCP, m4.xlarge)&#xA;6 OCP application (12 cores of OCP, t2.large)&#xA;6 Cloudforms (no cost with OCP, m4.xlarge)&#xA;3 Storage (i3.xlarge)&#xA;6 Ansible Tower (m4.xlarge)&#xA;3 Satellite (i3.xlarge)&#xA;==&#xA;Lab -> 26 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 32 hosts&#xA;Non production -> 26 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 32 hosts&#xA;Production with DR -> 26 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts + 3 additional storage (another AWS region, other public cloud or on premises data center) + 1 Ansible Tower DR + 1 Satellite Server = 37 hosts &#xA;&#xA;AWS VPC Networking&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.&#xA;&#xA;AWS Security Group&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="2cff302c-e242-4287-8855-58cc7d3520d0"
@@ -12,7 +12,7 @@
     <bounds
         x="60"
         y="141"
-        width="289"
+        width="157"
         height="98"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -24,7 +24,7 @@
           source="a16ed548-ccd4-4af9-b3df-0ef6892e9742"
           target="fda29a88-d84c-4ff7-a9ec-385b6d58ac6a"/>
       <bounds
-          x="72"
+          x="12"
           y="24"
           width="120"
           height="55"/>
@@ -1145,7 +1145,7 @@
         x="1104"
         y="17"
         width="185"
-        height="80"/>
+        height="56"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -1167,8 +1167,8 @@
     <bounds
         x="672"
         y="750"
-        width="193"
-        height="115"/>
+        width="133"
+        height="182"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -1228,11 +1228,11 @@
       id="18cbd778-953c-44b6-b0f6-26455f1fc4eb"
       targetConnections="cb1e76fc-fe27-4c1c-a023-bcb489630a20 d7f67307-8a32-4f7f-a9f0-f24e5744a4d4"
       textAlignment="1"
-      content="OCP master and OCP infrastructure Nodes are m4.xlarge (4 vCPU, 16gb mem).">
+      content="OCP master and OCP infrastructure Nodes are m4.xlarge (4 vCPU, 16gb mem) on RHEL.">
     <bounds
-        x="36"
+        x="24"
         y="750"
-        width="145"
+        width="157"
         height="80"/>
   </children>
   <children
@@ -1240,23 +1240,23 @@
       id="fda29a88-d84c-4ff7-a9ec-385b6d58ac6a"
       targetConnections="747cfd1c-79f8-4eda-b57f-a0c2f524cb2b"
       textAlignment="1"
-      content="Bastion is t2.micro (1 vCPU, 1gb mem).">
+      content="Bastion is t2.micro (1 vCPU, 1gb mem) on RHEL.">
     <bounds
         x="60"
         y="268"
         width="241"
-        height="32"/>
+        height="45"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="25cc188d-c6ed-4f66-803f-5f89eb8210a2"
       targetConnections="7da3bce4-f950-40a0-b084-da3885913a12"
       textAlignment="1"
-      content="Application container are t2.large (2 vCPU, 8gb mem).  With 6 nodes, you have a total capacity of 48gb.   Most containers are 2gb therefore 24 containers can be moving across 3 zones. &#xA;&#xA;Application containers can be used to host applications, building new containers, Jenkins server (CI/CD), the aggregated logging stack (EFK), JBoss middleware, databases and any other docker based containers.">
+      content="Application container are t2.large (2 vCPU, 8gb mem) on RHEL Atomic.  With 6 nodes, you have a total capacity of 48gb.   Most containers are 2gb therefore 24 containers can be moving across 3 zones. &#xA;&#xA;Application containers can be used to host applications, building new containers, RH Single Sign On, Jenkins server (CI/CD), the OCP aggregated logging stack (EFK), the OCP metrics stack, JBoss middleware, databases and any other docker based containers.">
     <bounds
-        x="876"
+        x="816"
         y="753"
-        width="301"
+        width="361"
         height="179"/>
   </children>
   <children
@@ -1357,7 +1357,7 @@
       id="b153051d-e392-403c-9e21-a0728f4c716e"
       targetConnections="416a954a-038d-4ec5-bb9a-e937c3086878 72a5706a-94bf-4d85-9edc-6130816a91fd"
       textAlignment="1"
-      content="Used for executing disaster recovery and other automation scripts. Ansible Tower instances are m4.xlarge (4 vCPU, 16gb mem). Future: Containerization. ">
+      content="Used for executing disaster recovery and other automation scripts. Ansible Tower instances are m4.xlarge (4 vCPU, 16gb mem) on RHEL. Future: Containerization. ">
     <bounds
         x="1464"
         y="741"
@@ -1369,23 +1369,23 @@
       id="af887790-9112-4bb4-a3e4-b64ef09c9da6"
       targetConnections="0a9db6ab-8108-4334-9103-ec431548c016"
       textAlignment="1"
-      content="Satellite Capsule instances are i3.xlarge (4 vCPU, 30.5gb mem, 1tb SSD) storage optimized.">
+      content="Satellite Capsule instances are i3.xlarge (4 vCPU, 30.5gb mem, 1tb SSD) storage optimized on RHEL.">
     <bounds
-        x="36"
+        x="204"
         y="840"
-        width="289"
+        width="173"
         height="80"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="d3f1fa1e-9314-45c1-bc33-ef6bec63c690"
       textAlignment="1"
-      content="Red Hat Insights installed on all hosts.">
+      content="Red Hat Satellite agents and Insights agents installed on all RHEL based hosts.">
     <bounds
         x="1104"
-        y="108"
+        y="84"
         width="185"
-        height="37"/>
+        height="61"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -1394,10 +1394,10 @@
       textAlignment="1"
       content="Cloudforms instances are m4.xlarge (4 vCPU, 16gb mem). Future: Containerization. ">
     <bounds
-        x="636"
-        y="876"
-        width="217"
-        height="56"/>
+        x="24"
+        y="840"
+        width="169"
+        height="80"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1486,7 +1486,7 @@
       id="96f429f0-0df6-45c3-8c25-a4fa9343abec"
       targetConnections="ad668669-a35e-44dc-989f-b95064bac30b"
       textAlignment="1"
-      content="Storage instances are i3.xlarge (4 vCPU, 30.5gb mem, 1tb SSD) storage optimized.  Storage is physically attached SSD.">
+      content="Storage instances are i3.xlarge (4 vCPU, 30.5gb mem, 1tb SSD) storage optimized on RHEL.  Storage is physically attached SSD.">
     <bounds
         x="1812"
         y="252"
@@ -1666,5 +1666,29 @@
         y="840"
         width="289"
         height="92"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="00fa7663-91b9-46de-8df7-b00adee4e2d6"
+      name="AWS Availability Zone B"
+      textAlignment="1">
+    <bounds
+        x="228"
+        y="141"
+        width="149"
+        height="98"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="ac0719e1-7e76-46c1-a268-5c160876931e"
+        fillColor="#73fdff">
+      <bounds
+          x="12"
+          y="24"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Device"
+          href="Device_6f3ae406-9298-459a-92a6-4412219d0bfb.xml#6f3ae406-9298-459a-92a6-4412219d0bfb"/>
+    </children>
   </children>
 </archimate:ArchimateDiagramModel>

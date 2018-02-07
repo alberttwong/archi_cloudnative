@@ -12,14 +12,14 @@
     <bounds
         x="60"
         y="141"
-        width="289"
+        width="169"
         height="98"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="2adbdbc7-307d-4301-b3eb-129962c5cd2d"
         fillColor="#73fdff">
       <bounds
-          x="72"
+          x="24"
           y="24"
           width="120"
           height="55"/>
@@ -718,6 +718,30 @@
       <archimateElement
           xsi:type="archimate:Node"
           href="Node_62752f8f-c45e-4b03-9af6-e99cc365a9d0.xml#62752f8f-c45e-4b03-9af6-e99cc365a9d0"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="aacb155a-94c0-4966-993d-264931125062"
+      name="AWS Availability Zone B"
+      textAlignment="1">
+    <bounds
+        x="252"
+        y="141"
+        width="149"
+        height="98"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="8eb28be0-0f6d-47c8-b591-263a08de1152"
+        fillColor="#73fdff">
+      <bounds
+          x="12"
+          y="24"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Device"
+          href="Device_6f3ae406-9298-459a-92a6-4412219d0bfb.xml#6f3ae406-9298-459a-92a6-4412219d0bfb"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>
