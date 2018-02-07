@@ -595,69 +595,6 @@
         href="Node_f9f48069-7a31-4554-97a1-d005807e1bfa.xml#f9f48069-7a31-4554-97a1-d005807e1bfa"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelGroup"
-      id="fc5e314f-5d93-4d1b-9e23-b2d9a2abbdc0"
-      name="Disaster Data Center"
-      textAlignment="1">
-    <bounds
-        x="1812"
-        y="103"
-        width="289"
-        height="217"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="994e365a-6c30-4369-b70b-0fe0ffa9730e"
-        fillColor="#ff7d78">
-      <bounds
-          x="12"
-          y="24"
-          width="120"
-          height="85"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_06970e7d-08fe-4c27-82e1-034864b0f24d.xml#06970e7d-08fe-4c27-82e1-034864b0f24d"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="5d5b4e34-7082-49e0-a7f5-eef9f68ecbee"
-        fillColor="#ff7d78">
-      <bounds
-          x="144"
-          y="24"
-          width="120"
-          height="85"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_821cb01c-808a-45e5-8a2b-f1afd8e8ebde.xml#821cb01c-808a-45e5-8a2b-f1afd8e8ebde"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="92210361-6755-4623-870b-15c22d482332"
-        fillColor="#ff7d78">
-      <bounds
-          x="12"
-          y="120"
-          width="120"
-          height="85"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_2e72ba35-1021-49c3-a2e5-82b045bbdb4d.xml#2e72ba35-1021-49c3-a2e5-82b045bbdb4d"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="cbd9e6b5-f499-4f26-b4a4-d91b96dc2952"
-        fillColor="#d783ff">
-      <bounds
-          x="144"
-          y="120"
-          width="120"
-          height="85"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_474091f5-e9ed-46a5-9a8d-cff579c3a2ed.xml#474091f5-e9ed-46a5-9a8d-cff579c3a2ed"/>
-    </children>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="e65a8451-cc0b-490c-8747-040f2af02d42">
     <sourceConnections
@@ -702,7 +639,7 @@
       name="Remote Data Center"
       textAlignment="1">
     <bounds
-        x="1656"
+        x="1536"
         y="103"
         width="145"
         height="217"/>
@@ -742,6 +679,95 @@
       <archimateElement
           xsi:type="archimate:Device"
           href="Device_6f3ae406-9298-459a-92a6-4412219d0bfb.xml#6f3ae406-9298-459a-92a6-4412219d0bfb"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="c5e51b20-c739-4b82-a369-397d9bb20dce"
+      name="Disaster Data Center"
+      textAlignment="1">
+    <bounds
+        x="1692"
+        y="103"
+        width="409"
+        height="217"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="9465c4a3-0ac2-4522-9d1b-9da10b9bb115"
+        fillColor="#ff7d78">
+      <bounds
+          x="12"
+          y="24"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_06970e7d-08fe-4c27-82e1-034864b0f24d.xml#06970e7d-08fe-4c27-82e1-034864b0f24d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="305788a1-102c-4855-97a4-56ce80932435"
+        fillColor="#ff7d78">
+      <bounds
+          x="144"
+          y="24"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_821cb01c-808a-45e5-8a2b-f1afd8e8ebde.xml#821cb01c-808a-45e5-8a2b-f1afd8e8ebde"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="7dac56c2-2afa-48da-a36c-dd95e07abbf6"
+        fillColor="#ff7d78">
+      <bounds
+          x="12"
+          y="120"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_2e72ba35-1021-49c3-a2e5-82b045bbdb4d.xml#2e72ba35-1021-49c3-a2e5-82b045bbdb4d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="eeba2235-4155-4e2a-ae3d-9f9793f47677"
+        fillColor="#d783ff">
+      <bounds
+          x="144"
+          y="120"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_474091f5-e9ed-46a5-9a8d-cff579c3a2ed.xml#474091f5-e9ed-46a5-9a8d-cff579c3a2ed"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="b43acfcb-f5ea-42b3-a7d2-ec3e52cf53af"
+        fillColor="#fefc78">
+      <bounds
+          x="276"
+          y="24"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_f06a29de-6130-4b32-b8b3-d8449ef248db.xml#f06a29de-6130-4b32-b8b3-d8449ef248db"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="621f01e6-0329-4365-a9d6-8fc56544c3d9"
+        fillColor="#d783ff">
+      <bounds
+          x="276"
+          y="120"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_128d71fd-8402-4abc-b794-d832028b05ba.xml#128d71fd-8402-4abc-b794-d832028b05ba"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>

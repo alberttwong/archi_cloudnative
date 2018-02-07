@@ -1692,6 +1692,19 @@
           xsi:type="archimate:Node"
           href="Node_f06a29de-6130-4b32-b8b3-d8449ef248db.xml#f06a29de-6130-4b32-b8b3-d8449ef248db"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="1e91cea1-e7a0-4b17-885a-a3d3580659c5"
+        fillColor="#d783ff">
+      <bounds
+          x="276"
+          y="120"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_128d71fd-8402-4abc-b794-d832028b05ba.xml#128d71fd-8402-4abc-b794-d832028b05ba"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"

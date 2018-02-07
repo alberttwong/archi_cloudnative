@@ -11,7 +11,7 @@
     <bounds
         x="60"
         y="60"
-        width="397"
+        width="185"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -39,7 +39,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="ee8d5211-7983-4d14-89fa-65b5aa3c1704">
+        id="ee8d5211-7983-4d14-89fa-65b5aa3c1704"
+        targetConnections="134b1971-6cb6-4ae7-a6b6-406d8b7819f1">
       <bounds
           x="24"
           y="156"
@@ -56,16 +57,17 @@
       name="Back End Application"
       textAlignment="1">
     <bounds
-        x="504"
-        y="60"
-        width="349"
+        x="360"
+        y="70"
+        width="541"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="4f85d27f-daa8-468c-97eb-5ba49c416644">
+        id="4f85d27f-daa8-468c-97eb-5ba49c416644"
+        targetConnections="17d65431-aab2-4087-863e-771e0b6dbf29">
       <bounds
           x="12"
-          y="24"
+          y="36"
           width="120"
           height="55"/>
       <archimateElement
@@ -74,11 +76,12 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="4d4f9c98-4c99-40a8-baad-b86bf7697ae9">
+        id="4d4f9c98-4c99-40a8-baad-b86bf7697ae9"
+        targetConnections="50cba51d-8b4c-4cc2-b15f-e1198a0b55ac">
       <bounds
           x="144"
-          y="24"
-          width="193"
+          y="36"
+          width="121"
           height="55"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
@@ -86,11 +89,12 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="b55607a6-4083-4bf7-b2a3-cb79f3bef27c">
+        id="b55607a6-4083-4bf7-b2a3-cb79f3bef27c"
+        targetConnections="36a14955-1b7d-4914-8ff8-0f0b1c454d98">
       <bounds
           x="12"
-          y="84"
-          width="252"
+          y="96"
+          width="121"
           height="55"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
@@ -100,13 +104,122 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="7191ec6e-e97a-4002-833a-14da8717a150">
       <bounds
-          x="12"
-          y="144"
-          width="120"
+          x="275"
+          y="96"
+          width="121"
           height="55"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_630f5c34-dfdb-4e34-8b4d-25710488eb0e.xml#630f5c34-dfdb-4e34-8b4d-25710488eb0e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="f61e7950-9f1c-453d-82d6-993a41d0885f">
+      <sourceConnections
+          id="0ec71c89-2bfb-464b-9bc4-2e08cfb7bd9a"
+          source="f61e7950-9f1c-453d-82d6-993a41d0885f"
+          target="7f07a898-eae4-429b-8508-bc37dfae7c79"/>
+      <bounds
+          x="408"
+          y="96"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_84972674-3b25-444a-a505-deb903023a6d.xml#84972674-3b25-444a-a505-deb903023a6d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="f7155146-6260-4a7d-9b8b-40ed399dfd54">
+      <sourceConnections
+          id="c96c8309-d6e3-40e4-936a-b8319de7dfe0"
+          source="f7155146-6260-4a7d-9b8b-40ed399dfd54"
+          target="763edf3b-4f5f-494f-a856-69af3d2e40be"/>
+      <bounds
+          x="12"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_cc281a8f-29cf-48c8-a8a9-35430938a8a2.xml#cc281a8f-29cf-48c8-a8a9-35430938a8a2"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="eceb8f14-9c06-455e-9505-21d2d71f6f84">
+      <sourceConnections
+          id="8ca638d6-e68d-4f83-9186-dd6be872b562"
+          source="eceb8f14-9c06-455e-9505-21d2d71f6f84"
+          target="f2405789-23b5-462c-93d5-83b57ae0e446"/>
+      <bounds
+          x="408"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_da513aa8-6417-4139-b17a-360ea141f22a.xml#da513aa8-6417-4139-b17a-360ea141f22a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="e3649380-0004-47d9-add4-ce3fd6f9edec">
+      <bounds
+          x="144"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_8eeee984-8a89-4f7e-bbed-88db9659ebd7.xml#8eeee984-8a89-4f7e-bbed-88db9659ebd7"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="198a284f-764e-4e7f-857a-061995531985">
+      <bounds
+          x="276"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_bfb23c9c-1b6f-4464-846c-69616df06c57.xml#bfb23c9c-1b6f-4464-846c-69616df06c57"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="72c28eba-f655-4eba-a0d4-2532de824b00"
+        targetConnections="759137f6-8a55-4cd7-98bb-1e2fd33a996e">
+      <bounds
+          x="276"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_7f26a5d7-4e2e-4e4d-81ce-efd9bfc5e724.xml#7f26a5d7-4e2e-4e4d-81ce-efd9bfc5e724"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="59c3b43d-5432-4739-93d2-65ebb68c9b6e">
+      <bounds
+          x="408"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_f6b9d268-22b5-4d09-868f-2e53f773dbda.xml#f6b9d268-22b5-4d09-868f-2e53f773dbda"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="da1deb99-0f8e-4c58-b141-83b4d3c56e9a">
+      <bounds
+          x="144"
+          y="96"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_1ae6e002-e654-4d31-8184-5ed8404300ac.xml#1ae6e002-e654-4d31-8184-5ed8404300ac"/>
     </children>
   </children>
   <children
@@ -115,16 +228,20 @@
       name="Continuous Integration, Continuous Deployment, Continuous Security"
       textAlignment="1">
     <bounds
-        x="60"
-        y="312"
-        width="757"
+        x="84"
+        y="482"
+        width="685"
         height="313"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="795ceae4-ce28-4f9d-b3d7-bace8969235c">
+      <sourceConnections
+          id="614b751a-aea7-4c42-b8a4-a6a5c63f652d"
+          source="795ceae4-ce28-4f9d-b3d7-bace8969235c"
+          target="04267947-cdad-4972-8f5f-6e575d3003fa"/>
       <bounds
-          x="264"
-          y="215"
+          x="552"
+          y="24"
           width="120"
           height="55"/>
       <archimateElement
@@ -133,20 +250,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="c743d0a0-c84c-4f3c-ba64-3e2279d75344"
-        targetConnections="8c789ce5-5eca-4f57-a5e9-d74a5ac9c0ea">
-      <bounds
-          x="420"
-          y="90"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:SystemSoftware"
-          href="SystemSoftware_a30cd5ee-e9ad-43e9-9aa5-28c8878d3c1b.xml#a30cd5ee-e9ad-43e9-9aa5-28c8878d3c1b"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="d01e8830-a83b-4961-b547-23b582ac6dd9">
+      <sourceConnections
+          id="4d3d7967-1857-4f9b-b5eb-33de1b96e4f5"
+          source="d01e8830-a83b-4961-b547-23b582ac6dd9"
+          target="ad010be7-e30a-41a8-8a5c-b1e8f1d92370"/>
       <bounds
           x="156"
           y="24"
@@ -158,7 +266,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="d11644d8-d961-4d0e-bcf8-84f24ba7dbe0">
+        id="d11644d8-d961-4d0e-bcf8-84f24ba7dbe0"
+        targetConnections="8c849ab8-ccea-4863-948e-1833c28c9410">
       <bounds
           x="24"
           y="24"
@@ -171,6 +280,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="ccf58af0-ce02-4b4b-a474-0c87df69e09a">
+      <sourceConnections
+          id="550d4bb3-eaab-48c8-a636-7ced59449223"
+          source="ccf58af0-ce02-4b4b-a474-0c87df69e09a"
+          target="4c1fbfda-144e-4849-90dd-7a39429cb7b3"/>
       <bounds
           x="420"
           y="24"
@@ -183,6 +296,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="919bc486-fd61-43ae-b943-0bedd8cd5f5b">
+      <sourceConnections
+          id="1c03349a-62b4-4c0f-b894-77e9c49e0ca9"
+          source="919bc486-fd61-43ae-b943-0bedd8cd5f5b"
+          target="2f8e0b5b-82d0-4275-ac4c-586b5d6acc44"/>
       <bounds
           x="288"
           y="24"
@@ -195,6 +312,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="88c794aa-74d9-4f1e-b4ca-053c17fb584e">
+      <sourceConnections
+          id="d4cd90fe-6f3b-43c0-a585-dc2d2a2d6956"
+          source="88c794aa-74d9-4f1e-b4ca-053c17fb584e"
+          target="3a60d3a0-5e8b-48cb-a946-2d87da2dfb5b"/>
       <bounds
           x="288"
           y="90"
@@ -206,10 +327,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="1fd0bb80-d663-426e-92df-441ecbaa14c1">
+        id="1fd0bb80-d663-426e-92df-441ecbaa14c1"
+        targetConnections="e7c60cd8-d863-4795-9e2f-a3279e1a60f4">
       <bounds
-          x="24"
-          y="162"
+          x="23"
+          y="90"
           width="120"
           height="55"/>
       <archimateElement
@@ -218,30 +340,43 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="7731929c-1ada-4eb8-bd30-32239c8f75b0">
+        id="d4a26219-e0e2-450b-a16d-5acf38087b77">
       <bounds
-          x="24"
-          y="90"
+          x="23"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
-          href="SystemSoftware_052b49da-c723-445c-96a8-df4fb2d9b5d0.xml#052b49da-c723-445c-96a8-df4fb2d9b5d0"/>
+          href="SystemSoftware_eb0c3357-85f9-47ba-b390-75e9a61a234b.xml#eb0c3357-85f9-47ba-b390-75e9a61a234b"/>
     </children>
     <children
-        xsi:type="archimate:DiagramModelNote"
-        id="2adf8505-77b8-4d25-9938-44d0b561db0b"
-        textAlignment="1"
-        content="More tools at https://www.owasp.org/index.php/Source_Code_Analysis_Tools">
-      <sourceConnections
-          id="8c789ce5-5eca-4f57-a5e9-d74a5ac9c0ea"
-          source="2adf8505-77b8-4d25-9938-44d0b561db0b"
-          target="c743d0a0-c84c-4f3c-ba64-3e2279d75344"/>
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="b8a7e732-ccc2-4469-baf6-90aa02df2f47">
       <bounds
-          x="516"
-          y="203"
-          width="185"
-          height="80"/>
+          x="288"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_33891087-43e4-4f6e-a3d8-fed9743bd968.xml#33891087-43e4-4f6e-a3d8-fed9743bd968"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="5e3076d3-f882-4e30-af41-3e023b7eafff">
+      <sourceConnections
+          id="3f8c1ddf-5b33-4194-9a27-1206ead0587e"
+          source="5e3076d3-f882-4e30-af41-3e023b7eafff"
+          target="98f5168b-885a-4d94-b29e-c3ffb2689c78"/>
+      <bounds
+          x="22"
+          y="230"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_4a4ddb21-7ecb-4946-8b49-9f487b41675d.xml#4a4ddb21-7ecb-4946-8b49-9f487b41675d"/>
     </children>
   </children>
   <children
@@ -250,13 +385,17 @@
       name="Developer Tools"
       textAlignment="1">
     <bounds
-        x="1176"
-        y="312"
+        x="1776"
+        y="480"
         width="445"
         height="313"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="03e7337e-7391-4c38-a7fe-97e25ed51214">
+      <sourceConnections
+          id="8c7afd18-435e-467b-b079-46f67932864b"
+          source="03e7337e-7391-4c38-a7fe-97e25ed51214"
+          target="a397e65a-7b2c-4426-9777-a2d0798f83f4"/>
       <bounds
           x="24"
           y="36"
@@ -269,9 +408,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c335da02-f086-4e1e-8ea4-6997fb1044ad">
+      <sourceConnections
+          id="a3423b2d-e986-4279-a22c-0a8107baf657"
+          source="c335da02-f086-4e1e-8ea4-6997fb1044ad"
+          target="a920796d-955e-4fe8-ad99-f16f8c323101"/>
       <bounds
           x="24"
-          y="108"
+          y="96"
           width="120"
           height="55"/>
       <archimateElement
@@ -281,9 +424,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="446e19a0-b734-4dd9-abf0-93d57fc3c956">
+      <sourceConnections
+          id="db2dace9-dd14-4856-acd1-942e95255e9e"
+          source="446e19a0-b734-4dd9-abf0-93d57fc3c956"
+          target="038d1eb1-8af0-42d8-9430-82122eb8f138"/>
       <bounds
           x="24"
-          y="168"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -309,9 +456,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="7225aef5-37ac-4b31-8d54-51af211fc2d9">
+      <sourceConnections
+          id="df59ea6b-c1b0-4929-afe7-dafa6e9049f3"
+          source="7225aef5-37ac-4b31-8d54-51af211fc2d9"
+          target="4cbead29-cc33-49fb-a36f-c4c475e74d2b"/>
       <bounds
           x="156"
-          y="108"
+          y="96"
           width="120"
           height="55"/>
       <archimateElement
@@ -321,9 +472,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="cb4f1938-39a3-41fc-8957-cd18e362c2ed">
+      <sourceConnections
+          id="f8467021-4921-48fb-91c5-e6d3986ee47d"
+          source="cb4f1938-39a3-41fc-8957-cd18e362c2ed"
+          target="9fcd1295-139a-4f28-abe0-809bbef64bbc"/>
       <bounds
           x="156"
-          y="168"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -333,9 +488,13 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="879d28c8-de4a-407f-8312-de7dfef25668">
+      <sourceConnections
+          id="7f331c11-616f-40fe-99e8-382ecd5ad69c"
+          source="879d28c8-de4a-407f-8312-de7dfef25668"
+          target="e396d572-8614-4bd7-8d8e-8974720f934b"/>
       <bounds
           x="288"
-          y="36"
+          y="156"
           width="120"
           height="55"/>
       <archimateElement
@@ -344,15 +503,57 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="162b9612-c6f2-475b-b977-ecd69d907997">
+        id="162b9612-c6f2-475b-b977-ecd69d907997"
+        targetConnections="5f3c37f2-d7de-43ff-9dca-b3e003b5517f">
       <bounds
           x="288"
-          y="108"
+          y="36"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_887662ae-3662-408d-89ea-8f9ee791ae86.xml#887662ae-3662-408d-89ea-8f9ee791ae86"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="c743d0a0-c84c-4f3c-ba64-3e2279d75344"
+        targetConnections="8c789ce5-5eca-4f57-a5e9-d74a5ac9c0ea">
+      <bounds
+          x="288"
+          y="96"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_a30cd5ee-e9ad-43e9-9aa5-28c8878d3c1b.xml#a30cd5ee-e9ad-43e9-9aa5-28c8878d3c1b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="5b1e41cc-0ee1-4f74-b699-a6411cb19f88">
+      <bounds
+          x="24"
+          y="216"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_9e4ac15d-f77a-48d4-9651-28100b12369f.xml#9e4ac15d-f77a-48d4-9651-28100b12369f"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="31063799-3b34-4dce-8c0f-73740f9ed692">
+      <sourceConnections
+          id="4a0ee742-dc07-4e77-9388-c5c0ebbaa147"
+          source="31063799-3b34-4dce-8c0f-73740f9ed692"
+          target="1ee20490-c3d0-4888-b994-5316942d75cf"/>
+      <bounds
+          x="156"
+          y="216"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_c383d098-a6a8-4716-a0b9-ec1d6b316006.xml#c383d098-a6a8-4716-a0b9-ec1d6b316006"/>
     </children>
   </children>
   <children
@@ -361,13 +562,14 @@
       name="Chat Ops"
       textAlignment="1">
     <bounds
-        x="60"
-        y="648"
-        width="400"
+        x="2605"
+        y="70"
+        width="300"
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="b7124621-bcfb-4ee2-aa36-6ff94e4f193a">
+        id="b7124621-bcfb-4ee2-aa36-6ff94e4f193a"
+        targetConnections="7c241eab-70a5-4bae-9b70-8faeb94b4df2">
       <bounds
           x="12"
           y="48"
@@ -379,9 +581,10 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="29aa0096-8ec2-4ac1-90ee-233a5975eb00">
+        id="29aa0096-8ec2-4ac1-90ee-233a5975eb00"
+        targetConnections="3c61b879-3759-4b5f-bea1-ca031a33c953">
       <bounds
-          x="204"
+          x="168"
           y="48"
           width="120"
           height="55"/>
@@ -396,15 +599,19 @@
       name="DevOps"
       textAlignment="1">
     <bounds
-        x="468"
-        y="648"
-        width="301"
+        x="2616"
+        y="298"
+        width="181"
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="0a6b07d1-c516-4526-8cbe-23359b81d8d3">
+      <sourceConnections
+          id="b6e2fe0a-4af3-4a3e-9977-bd31ed0c37d1"
+          source="0a6b07d1-c516-4526-8cbe-23359b81d8d3"
+          target="eb5f13d8-314d-453f-b478-23fe9b369fc6"/>
       <bounds
-          x="12"
+          x="24"
           y="48"
           width="120"
           height="55"/>
@@ -419,57 +626,85 @@
       name="Data Store"
       textAlignment="1">
     <bounds
-        x="891"
-        y="60"
-        width="277"
+        x="1252"
+        y="96"
+        width="406"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="d0051160-2157-4408-9685-06e4f4a538fe">
+        id="d0051160-2157-4408-9685-06e4f4a538fe"
+        targetConnections="d7d22ad0-abc3-4ecb-8042-10928d0ee359">
       <bounds
           x="12"
           y="36"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_8b0183d6-48f0-4df3-a1ff-3da4630d4fc2.xml#8b0183d6-48f0-4df3-a1ff-3da4630d4fc2"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="f8fff6fd-9d15-4499-90a5-1d669f004751">
+        id="f8fff6fd-9d15-4499-90a5-1d669f004751"
+        targetConnections="8cc94eff-9ddf-4736-a8ba-e45aab20aca1">
       <bounds
           x="12"
-          y="108"
+          y="132"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_3a014dd2-555a-47ba-9577-a36c6e3f99ba.xml#3a014dd2-555a-47ba-9577-a36c6e3f99ba"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="d529fcf9-97a3-43d4-b1ab-3e1672dc18c2">
+        id="d529fcf9-97a3-43d4-b1ab-3e1672dc18c2"
+        targetConnections="ee03fcfb-da42-421b-92e6-76ddfb83db2d">
       <bounds
           x="144"
           y="36"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_6fcc2234-5afd-4130-a970-5320f4539dd4.xml#6fcc2234-5afd-4130-a970-5320f4539dd4"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="6b66069a-edb3-4d90-89c7-165aeadd5b9d">
+        id="6b66069a-edb3-4d90-89c7-165aeadd5b9d"
+        targetConnections="99de3dc4-9adb-412d-9ac3-a5f6184cc6ab">
       <bounds
           x="144"
-          y="108"
+          y="132"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_88e53cfb-29bc-4bb2-964a-c4269853bb99.xml#88e53cfb-29bc-4bb2-964a-c4269853bb99"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="ab170619-3771-47c8-bead-a851d9e9528e">
+      <bounds
+          x="276"
+          y="36"
+          width="120"
+          height="84"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_7f09253c-5036-4b48-afd0-7abb0c01ba1b.xml#7f09253c-5036-4b48-afd0-7abb0c01ba1b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="7de21d0f-2124-4fc4-9b47-6828950203c1">
+      <bounds
+          x="276"
+          y="132"
+          width="120"
+          height="84"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_087d12fb-e126-46e7-9258-8e1f78818896.xml#087d12fb-e126-46e7-9258-8e1f78818896"/>
     </children>
   </children>
   <children
@@ -478,45 +713,64 @@
       name="Application Integration and Messaging"
       textAlignment="1">
     <bounds
-        x="1188"
-        y="60"
-        width="433"
+        x="1920"
+        y="62"
+        width="277"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="52510cf4-b702-4135-bc40-856c5b9da215">
+        id="52510cf4-b702-4135-bc40-856c5b9da215"
+        targetConnections="43c37ec6-6950-4c80-8d6e-c4817cb27a36">
       <bounds
           x="12"
           y="36"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_9a0e6528-509e-45be-add2-f4370d2d6c41.xml#9a0e6528-509e-45be-add2-f4370d2d6c41"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="0abcdcb3-2eee-4e89-bc5c-0765531b87ff">
+        id="0abcdcb3-2eee-4e89-bc5c-0765531b87ff"
+        targetConnections="462939eb-611d-49d4-aa48-43025a05c660">
       <bounds
           x="144"
-          y="108"
+          y="132"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_96f17c65-8e8e-4324-bc60-2887baa76bfe.xml#96f17c65-8e8e-4324-bc60-2887baa76bfe"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="8eace181-8cc6-4b49-8867-d5c08c908268">
+        id="8eace181-8cc6-4b49-8867-d5c08c908268"
+        targetConnections="87e41a34-82e7-4fe5-9a13-399af69c3ddf">
       <bounds
           x="144"
           y="36"
           width="120"
-          height="55"/>
+          height="85"/>
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_c28a6a2d-eb26-47e4-97f7-c7964540303c.xml#c28a6a2d-eb26-47e4-97f7-c7964540303c"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="fa69da8a-9fe7-442d-9167-93d5754b3d56">
+      <sourceConnections
+          id="aed92d93-d819-4e36-a656-e1e41c59dd3f"
+          source="fa69da8a-9fe7-442d-9167-93d5754b3d56"
+          target="aeeb68e4-2555-4f97-b740-b823a8ac607e"/>
+      <bounds
+          x="12"
+          y="132"
+          width="120"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_15683cfc-2f8c-4f69-bab7-dd2de1a2c448.xml#15683cfc-2f8c-4f69-bab7-dd2de1a2c448"/>
     </children>
   </children>
   <children
@@ -525,61 +779,120 @@
       name="Big Data"
       textAlignment="1">
     <bounds
-        x="840"
-        y="312"
-        width="301"
+        x="984"
+        y="482"
+        width="329"
         height="313"/>
     <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="db311d0d-a3bb-455e-a67d-86d282235736"
-        targetConnections="361a990f-1cc6-4b80-81cc-05fdbadc2fc5">
+        xsi:type="archimate:DiagramModelGroup"
+        id="7fd3ed56-a5cc-41f6-85f1-2fe3ea737850"
+        name="Data Flow"
+        textAlignment="1">
       <bounds
           x="12"
           y="36"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:SystemSoftware"
-          href="SystemSoftware_e024a53f-6c2b-4945-acfd-d7afe7192e5f.xml#e024a53f-6c2b-4945-acfd-d7afe7192e5f"/>
+          width="144"
+          height="216"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="ed73d3d6-9d36-43d9-b4e9-862c183df153">
+        <sourceConnections
+            id="7935fee7-f592-48c6-bb4e-cf625e69c182"
+            source="ed73d3d6-9d36-43d9-b4e9-862c183df153"
+            target="36aa878d-d234-4f51-84b9-d3be66c09124"/>
+        <bounds
+            x="12"
+            y="24"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_5851de64-f2c4-47f9-8e04-060ca62955ed.xml#5851de64-f2c4-47f9-8e04-060ca62955ed"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="da1979e3-95c0-41d9-9759-fd93c3130231">
+        <sourceConnections
+            id="b427184d-2c8c-41b5-8f20-00f0591d414c"
+            source="da1979e3-95c0-41d9-9759-fd93c3130231"
+            target="48d3d7a9-4c32-420c-8999-4ef9197f289e"/>
+        <bounds
+            x="12"
+            y="84"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_7e73624c-f552-474c-b4c8-77bb019ae990.xml#7e73624c-f552-474c-b4c8-77bb019ae990"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="8fdb11a6-f64b-4789-ac15-8dcdefa6117b">
+        <bounds
+            x="12"
+            y="144"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_f20251e3-625a-4148-aa92-91c9d468a74f.xml#f20251e3-625a-4148-aa92-91c9d468a74f"/>
+      </children>
     </children>
     <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="755c08ab-f41c-4e0c-bd28-f904d46f25b4">
+        xsi:type="archimate:DiagramModelGroup"
+        id="bf366f4e-175d-4750-8954-966639a9b9ae"
+        name="Data Lakes"
+        textAlignment="1">
       <bounds
-          x="144"
-          y="36"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:SystemSoftware"
-          href="SystemSoftware_70e29a7e-d438-45a9-a3d5-0bac8e39dcbb.xml#70e29a7e-d438-45a9-a3d5-0bac8e39dcbb"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelNote"
-        id="95d260d6-173f-45dd-873f-f9a6c3661a53"
-        textAlignment="1"
-        content="List of Hortonworks sponsored Open Source project at https://hortonworks.com/ecosystems/">
-      <sourceConnections
-          id="361a990f-1cc6-4b80-81cc-05fdbadc2fc5"
-          source="95d260d6-173f-45dd-873f-f9a6c3661a53"
-          target="db311d0d-a3bb-455e-a67d-86d282235736"/>
-      <bounds
-          x="60"
-          y="192"
-          width="221"
-          height="80"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="a4969b47-f07d-423a-ac16-26c15b4020c8">
-      <bounds
-          x="12"
-          y="108"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:SystemSoftware"
-          href="SystemSoftware_db59082d-92a9-49ca-97be-c2c3914c9e77.xml#db59082d-92a9-49ca-97be-c2c3914c9e77"/>
+          x="168"
+          y="34"
+          width="148"
+          height="218"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="4a935fee-15a5-4e8b-b496-374dd712ef1d">
+        <sourceConnections
+            id="11204f4d-2059-459a-b149-705a26c1143f"
+            source="4a935fee-15a5-4e8b-b496-374dd712ef1d"
+            target="618a9016-9172-4c53-b017-730844f0a71b"/>
+        <bounds
+            x="12"
+            y="24"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_83f7998f-ad2c-41c9-a5fd-a514cd1cb45a.xml#83f7998f-ad2c-41c9-a5fd-a514cd1cb45a"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="821d89fe-f522-4919-9a06-665c35ec5356"
+          targetConnections="01b0bc36-1da0-41a1-82da-6cb411bdca56">
+        <sourceConnections
+            id="6ea5a9fa-4ca9-4db2-be88-ea1464cdc056"
+            source="821d89fe-f522-4919-9a06-665c35ec5356"
+            target="95d260d6-173f-45dd-873f-f9a6c3661a53"/>
+        <bounds
+            x="12"
+            y="84"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_0f347133-1100-4182-b2fa-1787ff07a762.xml#0f347133-1100-4182-b2fa-1787ff07a762"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="ec3f37a9-3c11-4751-a239-fe8b520fbe1a">
+        <bounds
+            x="12"
+            y="144"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_35d70626-ec5d-4015-b1e4-034d66c1d98b.xml#35d70626-ec5d-4015-b1e4-034d66c1d98b"/>
+      </children>
     </children>
   </children>
   <children
@@ -588,13 +901,17 @@
       name="Reporting and Business Intelligence"
       textAlignment="1">
     <bounds
-        x="792"
-        y="648"
-        width="277"
+        x="2544"
+        y="591"
+        width="421"
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="d9de6ef7-4dfa-4749-b489-c4a7c29eb55b">
+      <sourceConnections
+          id="78bddaf9-b1cd-456b-87b4-dce9cb7e0f9c"
+          source="d9de6ef7-4dfa-4749-b489-c4a7c29eb55b"
+          target="0d65940b-651e-4c4b-94c0-db79832aaa1e"/>
       <bounds
           x="12"
           y="36"
@@ -604,16 +921,598 @@
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_d07d87c9-640e-4666-8afe-e09bdc890ffd.xml#d07d87c9-640e-4666-8afe-e09bdc890ffd"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="4b379c8b-3507-4dc8-89b7-b3b692e7d97d">
+      <sourceConnections
+          id="2d0ec2fc-3ab5-42e4-b00f-9aacca9a16cf"
+          source="4b379c8b-3507-4dc8-89b7-b3b692e7d97d"
+          target="0d65940b-651e-4c4b-94c0-db79832aaa1e"/>
+      <bounds
+          x="144"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_571d8843-7ef4-4706-9ba9-f7c84e7c1d94.xml#571d8843-7ef4-4706-9ba9-f7c84e7c1d94"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="b3bcc40e-08a4-45dc-aed8-a1502f74fc39">
+      <sourceConnections
+          id="ff268030-d811-4362-bc23-9ec4befaee62"
+          source="b3bcc40e-08a4-45dc-aed8-a1502f74fc39"
+          target="0d65940b-651e-4c4b-94c0-db79832aaa1e"/>
+      <bounds
+          x="276"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_5f537993-1c12-4b3e-86c9-4108e4bee896.xml#5f537993-1c12-4b3e-86c9-4108e4bee896"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="1509f730-63f5-4ef2-a8da-b83b05d93432"
       targetConnections="0a26aa02-e40b-46ba-a4da-5223b602fbbf"
       textAlignment="1"
-      content="http://opentracing.io/documentation/pages/supported-tracers">
+      content="Products: Zipkin. More info can be found at http://opentracing.io/documentation/pages/supported-tracers">
+    <bounds
+        x="2046"
+        y="354"
+        width="241"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="16c6b052-80fb-45a9-86a8-4d65f33286c9"
+      textAlignment="1"
+      content="Typically there are rules in applications and should be highly modifiable.  Products: Red Hat JBoss Business Rule Engine: drools, optaplanner.">
+    <sourceConnections
+        id="36a14955-1b7d-4914-8ff8-0f0b1c454d98"
+        source="16c6b052-80fb-45a9-86a8-4d65f33286c9"
+        target="b55607a6-4083-4bf7-b2a3-cb79f3bef27c"/>
+    <bounds
+        x="72"
+        y="324"
+        width="265"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="b4054622-9735-41ad-8c23-41ae8693717e"
+      textAlignment="1"
+      content="Most people build software using the JavaEE or Spring Framework with opinionated Spring Boot or Wildfly Swarm.">
+    <sourceConnections
+        id="17d65431-aab2-4087-863e-771e0b6dbf29"
+        source="b4054622-9735-41ad-8c23-41ae8693717e"
+        target="4f85d27f-daa8-468c-97eb-5ba49c416644"/>
+    <sourceConnections
+        id="50cba51d-8b4c-4cc2-b15f-e1198a0b55ac"
+        source="b4054622-9735-41ad-8c23-41ae8693717e"
+        target="4d4f9c98-4c99-40a8-baad-b86bf7697ae9"/>
+    <bounds
+        x="396"
+        y="-38"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="79beb000-828a-4f2a-8786-f514db1b8438"
+      textAlignment="1"
+      content="Products: MongoDB.">
+    <sourceConnections
+        id="d7d22ad0-abc3-4ecb-8042-10928d0ee359"
+        source="79beb000-828a-4f2a-8786-f514db1b8438"
+        target="d0051160-2157-4408-9685-06e4f4a538fe"/>
+    <bounds
+        x="1056"
+        y="-48"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a955f2b1-665b-4bdf-8ddc-32587d8a44ef"
+      textAlignment="1"
+      content="Products: PostgreSQL, MariaDB.">
+    <sourceConnections
+        id="8cc94eff-9ddf-4736-a8ba-e45aab20aca1"
+        source="a955f2b1-665b-4bdf-8ddc-32587d8a44ef"
+        target="f8fff6fd-9d15-4499-90a5-1d669f004751"/>
+    <bounds
+        x="1212"
+        y="354"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="2f7fa243-4c0c-43a0-8ea4-83754ec3193c"
+      textAlignment="1"
+      content="Products: Red Hat JBoss Data Grid, Infinispan, Memcache, Redis.">
+    <sourceConnections
+        id="ee03fcfb-da42-421b-92e6-76ddfb83db2d"
+        source="2f7fa243-4c0c-43a0-8ea4-83754ec3193c"
+        target="d529fcf9-97a3-43d4-b1ab-3e1672dc18c2"/>
+    <bounds
+        x="1272"
+        y="-65"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="c081fc6e-ff55-4bdc-ad5e-70b262ca8f36"
+      textAlignment="1"
+      content="Products: Red Hat JBoss Data Virtualization, teiid.">
+    <sourceConnections
+        id="99de3dc4-9adb-412d-9ac3-a5f6184cc6ab"
+        source="c081fc6e-ff55-4bdc-ad5e-70b262ca8f36"
+        target="6b66069a-edb3-4d90-89c7-165aeadd5b9d"/>
+    <bounds
+        x="1473"
+        y="354"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1ad71ff0-2a59-4664-8a05-d0bc76e37e2f"
+      textAlignment="1"
+      content="Products: Apache Kafka.">
+    <sourceConnections
+        id="87e41a34-82e7-4fe5-9a13-399af69c3ddf"
+        source="1ad71ff0-2a59-4664-8a05-d0bc76e37e2f"
+        target="8eace181-8cc6-4b49-8867-d5c08c908268"/>
+    <bounds
+        x="2100"
+        y="-84"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="3806ce55-c274-45e6-9871-723bf127a657"
+      textAlignment="1"
+      content="Products: Red Hat JBoss Fuse, Apache Camel.">
+    <sourceConnections
+        id="43c37ec6-6950-4c80-8d6e-c4817cb27a36"
+        source="3806ce55-c274-45e6-9871-723bf127a657"
+        target="52510cf4-b702-4135-bc40-856c5b9da215"/>
+    <bounds
+        x="1760"
+        y="-65"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a39c4e11-988c-42ac-a3a9-1d782d38ee3d"
+      textAlignment="1"
+      content="Products:  Red Hat JBoss AMQ, Apache ActiveMQ.">
+    <sourceConnections
+        id="462939eb-611d-49d4-aa48-43025a05c660"
+        source="a39c4e11-988c-42ac-a3a9-1d782d38ee3d"
+        target="0abcdcb3-2eee-4e89-bc5c-0765531b87ff"/>
+    <bounds
+        x="2232"
+        y="219"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="04267947-cdad-4972-8f5f-6e575d3003fa"
+      targetConnections="614b751a-aea7-4c42-b8a4-a6a5c63f652d"
+      textAlignment="1"
+      content="Products: Jenkins, Spinnaker.">
+    <bounds
+        x="728"
+        y="869"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a397e65a-7b2c-4426-9777-a2d0798f83f4"
+      targetConnections="8c7afd18-435e-467b-b079-46f67932864b"
+      textAlignment="1"
+      content="Products: JIRA.">
     <bounds
         x="1548"
-        y="233"
+        y="456"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a920796d-955e-4fe8-ad99-f16f8c323101"
+      targetConnections="a3423b2d-e986-4279-a22c-0a8107baf657"
+      textAlignment="1"
+      content="Products: GIT.">
+    <bounds
+        x="1560"
+        y="591"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="038d1eb1-8af0-42d8-9430-82122eb8f138"
+      targetConnections="db2dace9-dd14-4856-acd1-942e95255e9e"
+      textAlignment="1"
+      content="Products: Sonatype Nexus.">
+    <bounds
+        x="1560"
+        y="729"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="80ef7952-cbc0-40ed-aa67-35b72e35173e"
+      textAlignment="1"
+      content="Products: Apache Maven.">
+    <sourceConnections
+        id="5f3c37f2-d7de-43ff-9dca-b3e003b5517f"
+        source="80ef7952-cbc0-40ed-aa67-35b72e35173e"
+        target="162b9612-c6f2-475b-b977-ecd69d907997"/>
+    <bounds
+        x="2286"
+        y="456"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="e396d572-8614-4bd7-8d8e-8974720f934b"
+      targetConnections="7f331c11-616f-40fe-99e8-382ecd5ad69c"
+      textAlignment="1"
+      content="Products: Swagger">
+    <bounds
+        x="2286"
+        y="773"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="4cbead29-cc33-49fb-a36f-c4c475e74d2b"
+      targetConnections="df59ea6b-c1b0-4929-afe7-dafa6e9049f3"
+      textAlignment="1"
+      content="Products: ELK, EFK.">
+    <bounds
+        x="2220"
+        y="887"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="9fcd1295-139a-4f28-abe0-809bbef64bbc"
+      targetConnections="f8467021-4921-48fb-91c5-e6d3986ee47d"
+      textAlignment="1"
+      content="Products: Prometheus, Nagios, Zabbix.">
+    <bounds
+        x="1657"
+        y="821"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="eb5f13d8-314d-453f-b478-23fe9b369fc6"
+      targetConnections="b6e2fe0a-4af3-4a3e-9977-bd31ed0c37d1"
+      textAlignment="1"
+      content="Push button self service dashboard. Products: Ansible Tower.">
+    <bounds
+        x="2831"
+        y="306"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="a375d6fa-d4d6-468c-89af-061d2fa947d6"
+      textAlignment="1"
+      content="Products: Angular.">
+    <sourceConnections
+        id="134b1971-6cb6-4ae7-a6b6-406d8b7819f1"
+        source="a375d6fa-d4d6-468c-89af-061d2fa947d6"
+        target="ee8d5211-7983-4d14-89fa-65b5aa3c1704"/>
+    <bounds
+        x="-156"
+        y="227"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="4c1fbfda-144e-4849-90dd-7a39429cb7b3"
+      targetConnections="550d4bb3-eaab-48c8-a636-7ced59449223"
+      textAlignment="1"
+      content="Products: SolarQube.">
+    <bounds
+        x="516"
+        y="808"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="2f8e0b5b-82d0-4275-ac4c-586b5d6acc44"
+      targetConnections="1c03349a-62b4-4c0f-b894-77e9c49e0ca9"
+      textAlignment="1"
+      content="Products: OpenSCAP.">
+    <bounds
+        x="288"
+        y="821"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="3a60d3a0-5e8b-48cb-a946-2d87da2dfb5b"
+      targetConnections="d4cd90fe-6f3b-43c0-a585-dc2d2a2d6956"
+      textAlignment="1"
+      content="Products: OWASP Jenkins Plugin.">
+    <bounds
+        x="516"
+        y="900"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ad010be7-e30a-41a8-8a5c-b1e8f1d92370"
+      targetConnections="4d3d7967-1857-4f9b-b5eb-33de1b96e4f5"
+      textAlignment="1"
+      content="Products: Ansible.">
+    <bounds
+        x="108"
+        y="910"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="4a2872d3-3d21-4382-94e5-9d6dc9945678"
+      textAlignment="1"
+      content="Products: JUnit, Cucumber (BDD)">
+    <sourceConnections
+        id="8c849ab8-ccea-4863-948e-1833c28c9410"
+        source="4a2872d3-3d21-4382-94e5-9d6dc9945678"
+        target="d11644d8-d961-4d0e-bcf8-84f24ba7dbe0"/>
+    <bounds
+        x="-120"
+        y="490"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="fb9769a2-36a4-420d-b27a-0cbfa9988de6"
+      textAlignment="1"
+      content="Products: Selenium.">
+    <sourceConnections
+        id="e7c60cd8-d863-4795-9e2f-a3279e1a60f4"
+        source="fb9769a2-36a4-420d-b27a-0cbfa9988de6"
+        target="1fd0bb80-d663-426e-92df-441ecbaa14c1"/>
+    <bounds
+        x="-144"
+        y="591"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="4ed02e74-9443-4ecc-8860-81369837c59e"
+      textAlignment="1"
+      content="Products: Slack.">
+    <sourceConnections
+        id="7c241eab-70a5-4bae-9b70-8faeb94b4df2"
+        source="4ed02e74-9443-4ecc-8860-81369837c59e"
+        target="b7124621-bcfb-4ee2-aa36-6ff94e4f193a"/>
+    <bounds
+        x="2400"
+        y="41"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="26aa957f-8a3b-4fbf-9d86-425aa7ff700a"
+      textAlignment="1"
+      content="Products: Hubot.">
+    <sourceConnections
+        id="3c61b879-3759-4b5f-bea1-ca031a33c953"
+        source="26aa957f-8a3b-4fbf-9d86-425aa7ff700a"
+        target="29aa0096-8ec2-4ac1-90ee-233a5975eb00"/>
+    <bounds
+        x="2700"
+        y="-48"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="0d65940b-651e-4c4b-94c0-db79832aaa1e"
+      targetConnections="78bddaf9-b1cd-456b-87b4-dce9cb7e0f9c 2d0ec2fc-3ab5-42e4-b00f-9aacca9a16cf ff268030-d811-4362-bc23-9ec4befaee62"
+      textAlignment="1"
+      content="Products: BIRT, JasperReport or Pentaho.">
+    <bounds
+        x="2688"
+        y="753"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="2adf8505-77b8-4d25-9938-44d0b561db0b"
+      textAlignment="1"
+      content="More tools at https://www.owasp.org/index.php/Source_Code_Analysis_Tools">
+    <sourceConnections
+        id="8c789ce5-5eca-4f57-a5e9-d74a5ac9c0ea"
+        source="2adf8505-77b8-4d25-9938-44d0b561db0b"
+        target="c743d0a0-c84c-4f3c-ba64-3e2279d75344"/>
+    <bounds
+        x="2292"
+        y="650"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="f2405789-23b5-462c-93d5-83b57ae0e446"
+      targetConnections="8ca638d6-e68d-4f83-9186-dd6be872b562"
+      textAlignment="1"
+      content="Provide inbound and outbound connectivity using REST, SOAP, MQ, Kafka.">
+    <bounds
+        x="648"
+        y="346"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="95d260d6-173f-45dd-873f-f9a6c3661a53"
+      targetConnections="6ea5a9fa-4ca9-4db2-be88-ea1464cdc056"
+      textAlignment="1"
+      content="Products: Hive, Tez, Pig, Storm, Spark, HBase, Accumulo, Solr">
+    <bounds
+        x="1344"
+        y="831"
+        width="221"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="98f5168b-885a-4d94-b29e-c3ffb2689c78"
+      targetConnections="3f8c1ddf-5b33-4194-9a27-1206ead0587e"
+      textAlignment="1"
+      content="Products: Chaos Monkey.">
+    <bounds
+        x="-122"
+        y="729"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="36aa878d-d234-4f51-84b9-d3be66c09124"
+      targetConnections="7935fee7-f592-48c6-bb4e-cf625e69c182"
+      textAlignment="1"
+      content="Products: Apache NiFi.">
+    <bounds
+        x="792"
+        y="504"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="0b17f0b6-4d05-4aa3-b06a-5aaa2dc77e3c"
+      textAlignment="1"
+      content="Machine Learning, AI, Deep Learning">
+    <sourceConnections
+        id="01b0bc36-1da0-41a1-82da-6cb411bdca56"
+        source="0b17f0b6-4d05-4aa3-b06a-5aaa2dc77e3c"
+        target="821d89fe-f522-4919-9a06-665c35ec5356"/>
+    <bounds
+        x="1362"
+        y="636"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="618a9016-9172-4c53-b017-730844f0a71b"
+      targetConnections="11204f4d-2059-459a-b149-705a26c1143f"
+      textAlignment="1"
+      content="Products: Flume, Kafka.">
+    <bounds
+        x="1332"
+        y="504"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="48d3d7a9-4c32-420c-8999-4ef9197f289e"
+      targetConnections="b427184d-2c8c-41b5-8f20-00f0591d414c"
+      textAlignment="1"
+      content="Products: Kafka.">
+    <bounds
+        x="792"
+        y="636"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="763edf3b-4f5f-494f-a856-69af3d2e40be"
+      targetConnections="c96c8309-d6e3-40e4-936a-b8319de7dfe0"
+      textAlignment="1"
+      content="Enterprise Integration Patterns.">
+    <bounds
+        x="402"
+        y="346"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="7f07a898-eae4-429b-8508-bc37dfae7c79"
+      targetConnections="0ec71c89-2bfb-464b-9bc4-2e08cfb7bd9a"
+      textAlignment="1"
+      content="Common distributed systems patterns.">
+    <bounds
+        x="962"
+        y="176"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="42d51fdb-4abd-48c5-990d-6f29cb82d80c"
+      textAlignment="1"
+      content="Core framework features like dependency injection, transaction management.">
+    <sourceConnections
+        id="759137f6-8a55-4cd7-98bb-1e2fd33a996e"
+        source="42d51fdb-4abd-48c5-990d-6f29cb82d80c"
+        target="72c28eba-f655-4eba-a0d4-2532de824b00"/>
+    <bounds
+        x="700"
+        y="-38"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="aeeb68e4-2555-4f97-b740-b823a8ac607e"
+      targetConnections="aed92d93-d819-4e36-a656-e1e41c59dd3f"
+      textAlignment="1"
+      content="Products: 3Scale.">
+    <bounds
+        x="1750"
+        y="308"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1ee20490-c3d0-4888-b994-5316942d75cf"
+      targetConnections="4a0ee742-dc07-4e77-9388-c5c0ebbaa147"
+      textAlignment="1"
+      content="Products: Red Hat JBoss Developer Studio">
+    <bounds
+        x="1938"
+        y="836"
         width="185"
         height="80"/>
   </children>
