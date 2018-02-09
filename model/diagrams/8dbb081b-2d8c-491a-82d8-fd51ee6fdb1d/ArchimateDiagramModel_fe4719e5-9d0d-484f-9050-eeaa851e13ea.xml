@@ -190,7 +190,8 @@
           height="349"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="2f8bcc61-591c-495c-b324-5ee33ac8c430">
+          id="2f8bcc61-591c-495c-b324-5ee33ac8c430"
+          fillColor="#d4fb78">
         <bounds
             x="12"
             y="36"
@@ -202,7 +203,8 @@
       </children>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
-          id="6c93f42f-e9c0-4ecc-9e94-eb24164cc1f3">
+          id="6c93f42f-e9c0-4ecc-9e94-eb24164cc1f3"
+          fillColor="#d4fb78">
         <bounds
             x="12"
             y="108"
@@ -335,7 +337,7 @@
         </sourceConnections>
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="120"
             height="85"/>
         <archimateElement
@@ -345,7 +347,6 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="158bdb02-e069-4ab6-ad0a-6eca0538cec8"
-          targetConnections="f82941df-65cf-42f1-8ea4-3ab7fb57f22c"
           fillColor="#ff7d78">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
@@ -398,7 +399,7 @@
             target="94f43b7d-14f0-40a9-8b11-48e7f6873a22"/>
         <bounds
             x="12"
-            y="120"
+            y="132"
             width="120"
             height="133"/>
         <archimateElement
@@ -636,7 +637,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="f44c51eb-c307-464b-b23b-89759c742a7d"
-        targetConnections="fbaf0ced-9763-4b49-a7f8-156eea5b97fa"
         fillColor="#ff7d78">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -757,7 +757,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="2d9424b7-f479-4542-9bc7-e94cae493277">
+        id="2d9424b7-f479-4542-9bc7-e94cae493277"
+        fillColor="#d4fb78">
       <bounds
           x="276"
           y="312"
@@ -959,7 +960,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="9824b0be-d515-48ce-a4fa-92b9d4665faa"
-        targetConnections="f32b0c76-1468-48b3-b6f2-99fb3dae80c4"
         fillColor="#ff7d78">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1072,7 +1072,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="a18674c3-4f96-4473-b654-c444091ffbcb">
+        id="a18674c3-4f96-4473-b654-c444091ffbcb"
+        fillColor="#d4fb78">
       <bounds
           x="278"
           y="312"
@@ -1300,10 +1301,6 @@
       targetConnections="3f33bb3f-a0a1-4516-a6d7-43690e7af9c9"
       textAlignment="1"
       content="Red Hat Storage will draw storage from AWS EBS.">
-    <sourceConnections
-        id="bf6aeb5b-3c27-4265-ac16-19af92a94aac"
-        source="6787ce51-6092-4efe-86b6-bdd6d2a54c85"
-        target="8b500e9e-5b75-4e56-bdb5-e3af09ad2453"/>
     <bounds
         x="405"
         y="840"
@@ -1334,8 +1331,8 @@
       textAlignment="1"
       content="OCP master and OCP infrastructure Nodes are m4.xlarge (4 vCPU, 16gb mem) on RHEL.">
     <bounds
-        x="-192"
-        y="745"
+        x="-186"
+        y="750"
         width="157"
         height="80"/>
   </children>
@@ -1392,17 +1389,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="8b500e9e-5b75-4e56-bdb5-e3af09ad2453"
-      targetConnections="bf6aeb5b-3c27-4265-ac16-19af92a94aac"
       fillColor="#ff89d8">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="f82941df-65cf-42f1-8ea4-3ab7fb57f22c"
-        source="8b500e9e-5b75-4e56-bdb5-e3af09ad2453"
-        target="158bdb02-e069-4ab6-ad0a-6eca0538cec8">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_3e19ea93-0fc3-4650-8532-1b8d2af0f933.xml#3e19ea93-0fc3-4650-8532-1b8d2af0f933"/>
-    </sourceConnections>
     <bounds
         x="540"
         y="750"
@@ -1416,15 +1403,6 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="841b8caa-1a4a-4a06-b166-c108c4f26637"
       fillColor="#ff89d8">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="f32b0c76-1468-48b3-b6f2-99fb3dae80c4"
-        source="841b8caa-1a4a-4a06-b166-c108c4f26637"
-        target="9824b0be-d515-48ce-a4fa-92b9d4665faa">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_2de81fa5-4ad9-40fe-8bd4-838d1ca17dc0.xml#2de81fa5-4ad9-40fe-8bd4-838d1ca17dc0"/>
-    </sourceConnections>
     <bounds
         x="1320"
         y="752"
@@ -1438,15 +1416,6 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2326aea6-d290-4b61-b3df-2ece5c7c5566"
       fillColor="#ff89d8">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="fbaf0ced-9763-4b49-a7f8-156eea5b97fa"
-        source="2326aea6-d290-4b61-b3df-2ece5c7c5566"
-        target="f44c51eb-c307-464b-b23b-89759c742a7d">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_d634e5e9-a8ec-4b85-99e7-d40a3dc35b6c.xml#d634e5e9-a8ec-4b85-99e7-d40a3dc35b6c"/>
-    </sourceConnections>
     <bounds
         x="1981"
         y="750"
@@ -1476,7 +1445,7 @@
       content="Satellite Capsule instances are i3.xlarge (4 vCPU, 30.5gb mem, 1tb SSD) storage optimized on RHEL.">
     <bounds
         x="204"
-        y="840"
+        y="852"
         width="173"
         height="80"/>
   </children>
@@ -1499,7 +1468,7 @@
       content="Cloudforms instances are m4.xlarge (4 vCPU, 16gb mem). Future: Containerization. ">
     <bounds
         x="-192"
-        y="840"
+        y="852"
         width="169"
         height="80"/>
   </children>
@@ -1593,7 +1562,7 @@
       content="Storage instances are m4.2xlarge (8 vCPU, 32gb mem) on RHEL.">
     <bounds
         x="1812"
-        y="252"
+        y="249"
         width="289"
         height="73"/>
   </children>
@@ -1605,7 +1574,7 @@
       content="To replicate data off region for disaster recovery, there is a group of 3 Red Hat Storage servers somewhere else (other AWS region, other public cloud or on premises data center).">
     <bounds
         x="1488"
-        y="840"
+        y="852"
         width="349"
         height="80"/>
   </children>
@@ -1719,7 +1688,7 @@
         x="1644"
         y="249"
         width="145"
-        height="80"/>
+        height="72"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -1786,7 +1755,7 @@
       content="Generally speaking, each RH Storage host can support 400 client connections.">
     <bounds
         x="1884"
-        y="840"
+        y="852"
         width="185"
         height="80"/>
   </children>
@@ -1831,8 +1800,8 @@
       textAlignment="1"
       content="You can easily add add more container capacity by adding more OCP Application Nodes.">
     <bounds
-        x="-18"
-        y="745"
+        x="-12"
+        y="750"
         width="185"
         height="80"/>
   </children>
@@ -1843,8 +1812,8 @@
       textAlignment="1"
       content="VMs and Red Hat OpenShift can live side-by-side.  The Red Hat management layer can manage both container and VMs. ">
     <bounds
-        x="-18"
-        y="840"
+        x="-12"
+        y="852"
         width="211"
         height="80"/>
   </children>
