@@ -713,9 +713,9 @@
       name="Application Integration and Messaging"
       textAlignment="1">
     <bounds
-        x="1841"
+        x="1750"
         y="60"
-        width="277"
+        width="423"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -771,6 +771,22 @@
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_15683cfc-2f8c-4f69-bab7-dd2de1a2c448.xml#15683cfc-2f8c-4f69-bab7-dd2de1a2c448"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="5e1e0a0b-3d36-42bd-9466-6027257f8bfd">
+      <sourceConnections
+          id="704f07d0-00be-4783-a251-759494489d63"
+          source="5e1e0a0b-3d36-42bd-9466-6027257f8bfd"
+          target="415b1f38-0081-41bf-bca8-2ea49defadd2"/>
+      <bounds
+          x="276"
+          y="36"
+          width="120"
+          height="84"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_709fde50-917d-4f69-ab63-228e306c2aff.xml#709fde50-917d-4f69-ab63-228e306c2aff"/>
     </children>
   </children>
   <children
@@ -959,11 +975,11 @@
       id="1509f730-63f5-4ef2-a8da-b83b05d93432"
       targetConnections="0a26aa02-e40b-46ba-a4da-5223b602fbbf"
       textAlignment="1"
-      content="Products: Zipkin. More info can be found at http://opentracing.io/documentation/pages/supported-tracers">
+      content="Products: Zipkin. More info can be found at http://opentracing.io/documentation/pages/supported-tracers. Works well with Spring Cloud Sleuth. ">
     <bounds
-        x="2044"
+        x="2004"
         y="387"
-        width="241"
+        width="281"
         height="80"/>
   </children>
   <children
@@ -1622,5 +1638,16 @@
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_5219a007-825c-4ce4-a2ec-320706bb4f11.xml#5219a007-825c-4ce4-a2ec-320706bb4f11"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="415b1f38-0081-41bf-bca8-2ea49defadd2"
+      targetConnections="704f07d0-00be-4783-a251-759494489d63"
+      textAlignment="1"
+      content="Products: Istio, Linkerd, Convoy.">
+    <bounds
+        x="2194"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
