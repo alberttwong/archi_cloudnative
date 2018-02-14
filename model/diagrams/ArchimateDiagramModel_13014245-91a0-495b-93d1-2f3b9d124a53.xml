@@ -1685,13 +1685,61 @@
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_6ffdeab8-9420-4008-b3a1-d9e9268be9e1.xml#6ffdeab8-9420-4008-b3a1-d9e9268be9e1"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="1d34e49a-f058-4165-9df0-9111231806fe">
+      <sourceConnections
+          id="e5fb74a8-b9c6-40e7-94d3-0601149c0d55"
+          source="1d34e49a-f058-4165-9df0-9111231806fe"
+          target="3c3c3caa-c200-4c73-9a0e-3919e2dfffc5"/>
+      <bounds
+          x="276"
+          y="96"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_663bde5f-ab8e-48b2-b821-52c5f60f25dd.xml#663bde5f-ab8e-48b2-b821-52c5f60f25dd"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="e990cd79-28d1-4d21-abb2-1c0cf41910d1">
+      <sourceConnections
+          id="76ebb50c-49db-45f6-86a0-b33aefdd6793"
+          source="e990cd79-28d1-4d21-abb2-1c0cf41910d1"
+          target="90a998fd-e71e-46ed-866b-598ad3e274f8"/>
+      <bounds
+          x="276"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_adc0b66a-bed7-4b3a-819e-3ad48d3129c5.xml#adc0b66a-bed7-4b3a-819e-3ad48d3129c5"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="80edf181-bedf-4869-836c-98ccf853f99a">
+      <sourceConnections
+          id="4df0430d-5ab6-44dc-8f98-10a31470cf64"
+          source="80edf181-bedf-4869-836c-98ccf853f99a"
+          target="13ea1bb7-4e8e-42e6-a4ae-29bb84516346"/>
+      <bounds
+          x="276"
+          y="216"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_8737ab89-3e3f-45db-9cee-7e5aa27a97a6.xml#8737ab89-3e3f-45db-9cee-7e5aa27a97a6"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="415b1f38-0081-41bf-bca8-2ea49defadd2"
       targetConnections="704f07d0-00be-4783-a251-759494489d63"
       textAlignment="1"
-      content="Opinionated distributed messaging. Products: Istio, Linkerd, Envoy.">
+      content="Opinionated distributed messaging. Products: Istio, Linkerd, Envoy, Conduit.">
     <bounds
         x="2194"
         width="185"
@@ -1809,8 +1857,8 @@
         source="783ee386-8018-4718-8389-d2e484710360"
         target="bd1dbf15-9cfc-4b52-ac9a-5234afb49eda"/>
     <bounds
-        x="3036"
-        y="425"
+        x="3000"
+        y="674"
         width="185"
         height="80"/>
   </children>
@@ -1833,8 +1881,44 @@
       textAlignment="1"
       content="Provision file, block and object storage. Products: Red Hat Storage.">
     <bounds
-        x="3040"
-        y="314"
+        x="3024"
+        y="267"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="3c3c3caa-c200-4c73-9a0e-3919e2dfffc5"
+      targetConnections="e5fb74a8-b9c6-40e7-94d3-0601149c0d55"
+      textAlignment="1"
+      content="Run applications without the underlying complexity. Products: Red Hat OpenShift.">
+    <bounds
+        x="3024"
+        y="364"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="90a998fd-e71e-46ed-866b-598ad3e274f8"
+      targetConnections="76ebb50c-49db-45f6-86a0-b33aefdd6793"
+      textAlignment="1"
+      content="Provide self serivce infrastructure. Products: Red Hat Openstack.">
+    <bounds
+        x="3024"
+        y="466"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="13ea1bb7-4e8e-42e6-a4ae-29bb84516346"
+      targetConnections="4df0430d-5ab6-44dc-8f98-10a31470cf64"
+      textAlignment="1"
+      content="Running mutiple hosts on a single machine. Products: Red Hat Virtualization.">
+    <bounds
+        x="3012"
+        y="566"
         width="185"
         height="80"/>
   </children>
