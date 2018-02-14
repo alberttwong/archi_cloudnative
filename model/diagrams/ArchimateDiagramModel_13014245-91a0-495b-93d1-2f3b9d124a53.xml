@@ -1188,8 +1188,8 @@
         source="80ef7952-cbc0-40ed-aa67-35b72e35173e"
         target="162b9612-c6f2-475b-b977-ecd69d907997"/>
     <bounds
-        x="2286"
-        y="456"
+        x="2284"
+        y="552"
         width="185"
         height="80"/>
   </children>
@@ -1549,11 +1549,12 @@
     <bounds
         x="2568"
         y="285"
-        width="276"
+        width="409"
         height="282"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="2003bbc0-fe17-4ec4-9967-742f7b053c85">
+        id="2003bbc0-fe17-4ec4-9967-742f7b053c85"
+        targetConnections="ea1f0d84-d92c-4913-88bb-6dcf3d72efc3">
       <bounds
           x="12"
           y="36"
@@ -1566,6 +1567,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="3ad6f35c-57e5-44dd-bed8-5ada4ed411b5">
+      <sourceConnections
+          id="ea9a3803-67ef-4cb1-90cc-0f072e8df900"
+          source="3ad6f35c-57e5-44dd-bed8-5ada4ed411b5"
+          target="2b07b693-cf4a-457e-abe8-af2966f264a8"/>
       <bounds
           x="12"
           y="96"
@@ -1578,6 +1583,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c15e2e07-3c32-404e-95b9-95e07b374b2a">
+      <sourceConnections
+          id="db1e8ab7-bb91-4ac7-8f6f-963053d77923"
+          source="c15e2e07-3c32-404e-95b9-95e07b374b2a"
+          target="4aef5b81-ec6c-460f-a28a-9e426dc87a34"/>
       <bounds
           x="12"
           y="156"
@@ -1590,6 +1599,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="ec72ff4b-5439-4095-a18f-2e2690a71b31">
+      <sourceConnections
+          id="5b05195a-7704-4e22-afbd-e6d003e7c4ad"
+          source="ec72ff4b-5439-4095-a18f-2e2690a71b31"
+          target="6ce8e3ce-6150-489e-bac9-6af8968dc5c8"/>
       <bounds
           x="12"
           y="216"
@@ -1614,6 +1627,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="45ed0246-4446-498f-8174-759e94630e61">
+      <sourceConnections
+          id="00a6b742-009c-4fbb-8eb4-0c1a1b174994"
+          source="45ed0246-4446-498f-8174-759e94630e61"
+          target="c1be45e7-b883-4514-9faf-e5173c3792c7"/>
       <bounds
           x="144"
           y="96"
@@ -1625,7 +1642,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="bd1dbf15-9cfc-4b52-ac9a-5234afb49eda">
+        id="bd1dbf15-9cfc-4b52-ac9a-5234afb49eda"
+        targetConnections="bdbc094c-8778-4f52-a9e1-f9b9b241c163">
       <bounds
           x="144"
           y="156"
@@ -1638,6 +1656,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="4f7af500-c0f2-4cda-9793-8aece6942852">
+      <sourceConnections
+          id="b9209788-459c-4f43-a423-ae65b5fac4c2"
+          source="4f7af500-c0f2-4cda-9793-8aece6942852"
+          target="628770d4-92f5-46c5-941b-3cdfe10c28fc"/>
       <bounds
           x="144"
           y="216"
@@ -1646,6 +1668,22 @@
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_5219a007-825c-4ce4-a2ec-320706bb4f11.xml#5219a007-825c-4ce4-a2ec-320706bb4f11"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="74074ba6-f837-489a-ba52-78723cc7681b">
+      <sourceConnections
+          id="8f277923-1761-4c27-bc1c-9c8be54873da"
+          source="74074ba6-f837-489a-ba52-78723cc7681b"
+          target="26e26a59-0071-449d-bc16-260a000ee1ae"/>
+      <bounds
+          x="276"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_6ffdeab8-9420-4008-b3a1-d9e9268be9e1.xml#6ffdeab8-9420-4008-b3a1-d9e9268be9e1"/>
     </children>
   </children>
   <children
@@ -1695,6 +1733,108 @@
     <bounds
         x="1464"
         y="354"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="564ce3e5-4636-40a1-84cd-38e5d12cea68"
+      textAlignment="1"
+      content="Keep software systems up to date.  Products: Red Hat Satellite, Red Hat Ansible.">
+    <sourceConnections
+        id="ea1f0d84-d92c-4913-88bb-6dcf3d72efc3"
+        source="564ce3e5-4636-40a1-84cd-38e5d12cea68"
+        target="2003bbc0-fe17-4ec4-9967-742f7b053c85"/>
+    <bounds
+        x="2304"
+        y="245"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="2b07b693-cf4a-457e-abe8-af2966f264a8"
+      targetConnections="ea9a3803-67ef-4cb1-90cc-0f072e8df900"
+      textAlignment="1"
+      content="Monitor application, compute, storage and networking.  Products: Red Hat Cloudforms.">
+    <bounds
+        x="2316"
+        y="346"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="4aef5b81-ec6c-460f-a28a-9e426dc87a34"
+      targetConnections="db1e8ab7-bb91-4ac7-8f6f-963053d77923"
+      textAlignment="1"
+      content="Ensure systems are meeting organization compliance and stop rouge IT. Products: Red Hat Cloudforms.">
+    <bounds
+        x="2341"
+        y="443"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="6ce8e3ce-6150-489e-bac9-6af8968dc5c8"
+      targetConnections="5b05195a-7704-4e22-afbd-e6d003e7c4ad"
+      textAlignment="1"
+      content="Create new operation system hosts.  Products: Red Hat Satellite, Red Hat Ansible.">
+    <bounds
+        x="2540"
+        y="595"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="c1be45e7-b883-4514-9faf-e5173c3792c7"
+      targetConnections="00a6b742-009c-4fbb-8eb4-0c1a1b174994"
+      textAlignment="1"
+      content="Manage IT Tickets.">
+    <bounds
+        x="2680"
+        y="202"
+        width="185"
+        height="44"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="783ee386-8018-4718-8389-d2e484710360"
+      textAlignment="1"
+      content="Automate compute, storage and networking. Products: Red Hat Ansible.">
+    <sourceConnections
+        id="bdbc094c-8778-4f52-a9e1-f9b9b241c163"
+        source="783ee386-8018-4718-8389-d2e484710360"
+        target="bd1dbf15-9cfc-4b52-ac9a-5234afb49eda"/>
+    <bounds
+        x="3036"
+        y="425"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="628770d4-92f5-46c5-941b-3cdfe10c28fc"
+      targetConnections="b9209788-459c-4f43-a423-ae65b5fac4c2"
+      textAlignment="1"
+      content="Provision out network and network devices. Products: OpenvSwitch, haproxy.">
+    <bounds
+        x="2760"
+        y="591"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="26e26a59-0071-449d-bc16-260a000ee1ae"
+      targetConnections="8f277923-1761-4c27-bc1c-9c8be54873da"
+      textAlignment="1"
+      content="Provision file, block and object storage. Products: Red Hat Storage.">
+    <bounds
+        x="3040"
+        y="314"
         width="185"
         height="80"/>
   </children>
