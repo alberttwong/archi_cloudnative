@@ -630,9 +630,9 @@
       name="Data Store"
       textAlignment="1">
     <bounds
-        x="1252"
-        y="96"
-        width="406"
+        x="1162"
+        y="79"
+        width="543"
         height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -714,6 +714,18 @@
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_087d12fb-e126-46e7-9258-8e1f78818896.xml#087d12fb-e126-46e7-9258-8e1f78818896"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="1e17735c-2c31-4d63-9c13-a19bb50efa27">
+      <bounds
+          x="408"
+          y="36"
+          width="120"
+          height="84"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_dd562e1c-eb4f-4f79-a9bf-9a85e2c4332e.xml#dd562e1c-eb4f-4f79-a9bf-9a85e2c4332e"/>
     </children>
   </children>
   <children
@@ -929,7 +941,7 @@
         x="2532"
         y="715"
         width="421"
-        height="140"/>
+        height="162"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="d9de6ef7-4dfa-4749-b489-c4a7c29eb55b">
@@ -977,6 +989,38 @@
       <archimateElement
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_5f537993-1c12-4b3e-86c9-4108e4bee896.xml#5f537993-1c12-4b3e-86c9-4108e4bee896"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="c9725a4a-c8b5-4624-b94a-bc3f61f8753d">
+      <sourceConnections
+          id="66ee36b9-1215-48db-ba98-8b15c64b9052"
+          source="c9725a4a-c8b5-4624-b94a-bc3f61f8753d"
+          target="401fbac1-562c-41bc-acc8-082f5370022e"/>
+      <bounds
+          x="12"
+          y="96"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_f564020d-d402-4e96-8641-ff0b717acb3a.xml#f564020d-d402-4e96-8641-ff0b717acb3a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="058eb0cb-d518-4940-a52d-a171c6d152ad">
+      <sourceConnections
+          id="b48699d5-01a6-411d-8da4-055dade0052e"
+          source="058eb0cb-d518-4940-a52d-a171c6d152ad"
+          target="b350920b-8b62-4552-8711-8f96f36a130f"/>
+      <bounds
+          x="144"
+          y="96"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_8cfceafa-8b60-4c9e-9ff8-c4cb3a3714c6.xml#8cfceafa-8b60-4c9e-9ff8-c4cb3a3714c6"/>
     </children>
   </children>
   <children
@@ -1029,7 +1073,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="79beb000-828a-4f2a-8786-f514db1b8438"
       textAlignment="1"
-      content="Think hashtable across mutiple servers. Products: MongoDB.">
+      content="Think hashtable across mutiple servers data store. Products: MongoDB.">
     <sourceConnections
         id="d7d22ad0-abc3-4ecb-8042-10928d0ee359"
         source="79beb000-828a-4f2a-8786-f514db1b8438"
@@ -1044,7 +1088,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="a955f2b1-665b-4bdf-8ddc-32587d8a44ef"
       textAlignment="1"
-      content="Think arrays on a single server.  Products: PostgreSQL, MariaDB.">
+      content="Think arrays on a single server data store.  Products: PostgreSQL, MariaDB.">
     <sourceConnections
         id="8cc94eff-9ddf-4736-a8ba-e45aab20aca1"
         source="a955f2b1-665b-4bdf-8ddc-32587d8a44ef"
@@ -1234,7 +1278,7 @@
       id="eb5f13d8-314d-453f-b478-23fe9b369fc6"
       targetConnections="b6e2fe0a-4af3-4a3e-9977-bd31ed0c37d1"
       textAlignment="1"
-      content="Push button self service dashboard. Products: Ansible Tower.">
+      content="Automate all the things with push button self service dashboard. Products: Ansible Tower.">
     <bounds
         x="2416"
         y="145"
@@ -1338,7 +1382,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="4ed02e74-9443-4ecc-8860-81369837c59e"
       textAlignment="1"
-      content="Communication for your team.  Products: Slack.">
+      content="Communication for your team.  Products: Rocket.Chat, Slack.">
     <sourceConnections
         id="7c241eab-70a5-4bae-9b70-8faeb94b4df2"
         source="4ed02e74-9443-4ecc-8860-81369837c59e"
@@ -1371,8 +1415,8 @@
       textAlignment="1"
       content="Products: BIRT, JasperReport or Pentaho.">
     <bounds
-        x="2676"
-        y="877"
+        x="2987"
+        y="780"
         width="185"
         height="80"/>
   </children>
@@ -1549,7 +1593,7 @@
     <bounds
         x="2568"
         y="285"
-        width="409"
+        width="553"
         height="282"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -1733,6 +1777,31 @@
           xsi:type="archimate:SystemSoftware"
           href="SystemSoftware_8737ab89-3e3f-45db-9cee-7e5aa27a97a6.xml#8737ab89-3e3f-45db-9cee-7e5aa27a97a6"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="1bfb2a01-f7cb-410b-aa27-167dbc9074d5"
+        targetConnections="566f1b30-d0f7-4997-8313-5d9665b7c963">
+      <bounds
+          x="408"
+          y="36"
+          width="133"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_21e7a084-c8dc-494c-b7e4-c0c94b31947f.xml#21e7a084-c8dc-494c-b7e4-c0c94b31947f"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="735e4646-333b-4339-bd24-859c1eb28bca">
+      <bounds
+          x="408"
+          y="96"
+          width="133"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_3b799a5e-b9e2-4203-a428-690a1a60ad2b.xml#3b799a5e-b9e2-4203-a428-690a1a60ad2b"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -1761,7 +1830,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="8f72c375-bf7d-415b-86e2-f69bc3862d20"
       textAlignment="1"
-      content="Think double linked list.  Products: neo4j.">
+      content="Think double linked list data store.  Products: neo4j.">
     <sourceConnections
         id="5417524a-c713-4e9e-8a28-c8f8ae9649b8"
         source="8f72c375-bf7d-415b-86e2-f69bc3862d20"
@@ -1777,7 +1846,7 @@
       id="d5bb605d-e3db-496d-88c1-dca4028ba5f5"
       targetConnections="510d6b0d-49b9-4d0d-a954-5f562a604568"
       textAlignment="1"
-      content="Moving copies of master data to other systems.">
+      content="Moving copies of master data to other systems.  Products: Talend.">
     <bounds
         x="1464"
         y="354"
@@ -1857,8 +1926,8 @@
         source="783ee386-8018-4718-8389-d2e484710360"
         target="bd1dbf15-9cfc-4b52-ac9a-5234afb49eda"/>
     <bounds
-        x="3000"
-        y="674"
+        x="3012"
+        y="694"
         width="185"
         height="80"/>
   </children>
@@ -1881,8 +1950,8 @@
       textAlignment="1"
       content="Provision file, block and object storage. Products: Red Hat Storage.">
     <bounds
-        x="3024"
-        y="267"
+        x="3012"
+        y="41"
         width="185"
         height="80"/>
   </children>
@@ -1893,8 +1962,8 @@
       textAlignment="1"
       content="Run applications without the underlying complexity. Products: Red Hat OpenShift.">
     <bounds
-        x="3024"
-        y="364"
+        x="3132"
+        y="354"
         width="185"
         height="80"/>
   </children>
@@ -1905,7 +1974,7 @@
       textAlignment="1"
       content="Provide self serivce infrastructure. Products: Red Hat Openstack.">
     <bounds
-        x="3024"
+        x="3132"
         y="466"
         width="185"
         height="80"/>
@@ -1917,8 +1986,47 @@
       textAlignment="1"
       content="Running mutiple hosts on a single machine. Products: Red Hat Virtualization.">
     <bounds
-        x="3012"
-        y="566"
+        x="3084"
+        y="597"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="401fbac1-562c-41bc-acc8-082f5370022e"
+      targetConnections="66ee36b9-1215-48db-ba98-8b15c64b9052"
+      textAlignment="1"
+      content="Tracking web marketing.  Products: Google Analytics.">
+    <bounds
+        x="2470"
+        y="900"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="b350920b-8b62-4552-8711-8f96f36a130f"
+      targetConnections="b48699d5-01a6-411d-8da4-055dade0052e"
+      textAlignment="1"
+      content="Tracking email marketing. Products: Mailchimp.">
+    <bounds
+        x="2736"
+        y="900"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="e1e6b740-2721-4a87-99ff-4589c964d926"
+      textAlignment="1"
+      content="Login and access to what resources.  Products: Red Hat Single Sign On, Red Hat Identity Management. ">
+    <sourceConnections
+        id="566f1b30-d0f7-4997-8313-5d9665b7c963"
+        source="e1e6b740-2721-4a87-99ff-4589c964d926"
+        target="1bfb2a01-f7cb-410b-aa27-167dbc9074d5"/>
+    <bounds
+        x="3024"
+        y="154"
         width="185"
         height="80"/>
   </children>
