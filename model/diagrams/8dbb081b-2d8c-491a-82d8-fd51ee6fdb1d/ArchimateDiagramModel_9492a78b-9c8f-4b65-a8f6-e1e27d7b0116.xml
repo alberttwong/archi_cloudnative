@@ -169,7 +169,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="23ed9b74-b32f-4e02-862d-7612bd0bdb77"
-          targetConnections="3b599df2-80c4-4d48-9d98-a78224e1d9ff"
+          targetConnections="3b599df2-80c4-4d48-9d98-a78224e1d9ff eee8579a-b87a-464f-9d42-ff0c25f71260"
           fillColor="#75d5ff">
         <bounds
             x="12"
@@ -208,6 +208,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="bae7ac97-fe5c-4b24-afbb-50ccf7a9b04e"
+          targetConnections="e4fd64e7-73fd-4707-867b-149f2b3f15c6"
           fillColor="#75d5ff">
         <bounds
             x="12"
@@ -245,6 +246,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="d40f945c-2cd7-42d2-bbd5-2498c601028d"
+          targetConnections="c934a0f2-c529-48fb-bb68-14cdc100deec"
           fillColor="#75d5ff">
         <bounds
             x="12"
@@ -274,7 +276,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="7a7c7567-342f-4cd6-9f8a-45dc3cb54d41"
       textAlignment="1"
-      content="Architecture:  2 OCP clusters, one in AWS Region 1 and another in AWS Region 2.     2 Red Hat CNS clusters, one in AWS Region 1 and another in AWS Region 2.  Ansible Tower.&#xA;&#xA;Problem: You need to move 3 items to recover an OCP environment.   You need compute, networking and storage.&#xA;&#xA;Answer:  We can export compute by using OCP day 2 scripts.    Networking will have to use Ansible.   We can use RH CRS to geo-replicate volumes and PVs to the 2nd OCP cluster. ">
+      content="Architecture:  We use the OCP AWS Reference Architecture as the template to build the OCP clusters.   We have 2 OCP clusters (one in AWS Region 1 and another in AWS Region 2) and 2 Red Hat CNS clusters (one in AWS Region 1 and another in AWS Region 2) and Ansible Tower.&#xA;&#xA;Problem: You need to move 3 items to recover an OCP environment.   You need compute/projects, networking and storage.&#xA;&#xA;Answer:  First we need to enable replication of storage.  We can use RH CRS to geo-replicate container images, volumes and PVs to the 2nd OCP cluster.    Next we export compute by using OCP day 2 scripts to export all the OCP project details and then use the OCP day 2 scripts to import the project into the OCP cluster in AWS Region 2.   Finally for networking we use manual or Ansible to switch the load balancer to point to AWS Region 2.   Steps 1 and 2 can be done on a periodic basis before the disaster recovery event. ">
     <bounds
         x="156"
         y="537"
@@ -295,9 +297,9 @@
           href="FlowRelationship_7e5f4714-a7b6-4c95-adbf-e9c074af521c.xml#7e5f4714-a7b6-4c95-adbf-e9c074af521c"/>
     </sourceConnections>
     <bounds
-        x="816"
-        y="264"
-        width="120"
+        x="779"
+        y="276"
+        width="172"
         height="55"/>
     <archimateElement
         xsi:type="archimate:TechnologyProcess"
@@ -317,9 +319,9 @@
           href="FlowRelationship_3797b07c-b8b9-46ef-b46c-8de62b1caed4.xml#3797b07c-b8b9-46ef-b46c-8de62b1caed4"/>
     </sourceConnections>
     <bounds
-        x="780"
-        y="336"
-        width="193"
+        x="744"
+        y="348"
+        width="265"
         height="55"/>
     <archimateElement
         xsi:type="archimate:TechnologyProcess"
@@ -329,9 +331,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="836d9ef2-9402-4bf2-916a-9d8dd4fa5b3e">
     <bounds
-        x="816"
-        y="192"
-        width="120"
+        x="780"
+        y="204"
+        width="169"
         height="55"/>
     <archimateElement
         xsi:type="archimate:TechnologyProcess"
@@ -366,6 +368,33 @@
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_9d945f66-b91d-4a40-98e0-cbd164864bbd.xml#9d945f66-b91d-4a40-98e0-cbd164864bbd"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="eee8579a-b87a-464f-9d42-ff0c25f71260"
+        source="91bf573f-4c14-406d-acc6-36c568fbaa0a"
+        target="23ed9b74-b32f-4e02-862d-7612bd0bdb77">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_beceb07e-fb1d-4046-8932-f90bf485aecb.xml#beceb07e-fb1d-4046-8932-f90bf485aecb"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="e4fd64e7-73fd-4707-867b-149f2b3f15c6"
+        source="91bf573f-4c14-406d-acc6-36c568fbaa0a"
+        target="bae7ac97-fe5c-4b24-afbb-50ccf7a9b04e">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_e2b3d43f-b933-4caf-af7e-09cdfb453eca.xml#e2b3d43f-b933-4caf-af7e-09cdfb453eca"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="c934a0f2-c529-48fb-bb68-14cdc100deec"
+        source="91bf573f-4c14-406d-acc6-36c568fbaa0a"
+        target="d40f945c-2cd7-42d2-bbd5-2498c601028d">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_ba5085b0-305d-484f-8587-d4d5a1748435.xml#ba5085b0-305d-484f-8587-d4d5a1748435"/>
     </sourceConnections>
     <bounds
         x="801"
