@@ -9,6 +9,7 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 * https://content.pivotal.io/ebooks/migrating-to-cloud-native-application-architectures
 * https://content.pivotal.io/ebooks/beyond-the-12-factor-app
 * https://thenewkingmakers.com
+* https://insights.sei.cmu.edu/devops/2015/04/devops-case-study-netflix-and-the-chaos-monkey.html
 
 ## Sample Diagrams
 ### System Context
