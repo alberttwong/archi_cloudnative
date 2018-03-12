@@ -27,3 +27,7 @@ https://github.com/salesforce/Providence
 ### kube-monkey
 is an implementation of Netflix's Chaos Monkey for Kubernetes clusters. It randomly deletes Kubernetes pods in the cluster encouraging and validating the development of failure-resilient services.
 https://github.com/asobti/kube-monkey
+
+### Selenium
+Automate security testing through web robots.
+https://saucelabs.com/blog/discovering-security-vulnerabilities-with-selenium
