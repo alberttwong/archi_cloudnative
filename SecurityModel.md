@@ -1,6 +1,10 @@
 ### Red Hat OpenShift on AWS Reference Architecture
 VPC, Security Groups, IAM and more in the reference architecture.  https://access.redhat.com/documentation/en-us/reference_architectures/2017/html/deploying_openshift_container_platform_3.5_on_amazon_web_services/index
 
+### Ten layers of container security
+Containers make it easy to ensure consistency across environments and multiple deployment targets like physical servers, virtual machines, and private or public clouds. But, enterprises require strong security. This paper describes 10 key elements of security for different layers of the container solution stack and different stages of the container life cycle and how OpenShift delivers those ten elements of container security.
+https://www.redhat.com/en/resources/container-security-openshift-cloud-devops-whitepaper
+
 ### Threat Modeling Toolkit
 https://appseccalifornia2018.sched.com/event/CuRh/threat-modeling-toolkit?iframe=no&w=100%&sidebar=yes&bg=no
 
