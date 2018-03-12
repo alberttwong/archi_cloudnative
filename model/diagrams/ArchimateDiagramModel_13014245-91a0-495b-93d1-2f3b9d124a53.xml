@@ -1028,7 +1028,7 @@
       id="1509f730-63f5-4ef2-a8da-b83b05d93432"
       targetConnections="0a26aa02-e40b-46ba-a4da-5223b602fbbf"
       textAlignment="1"
-      content="Understand how the code is running. Products: Zipkin. More info can be found at http://opentracing.io/documentation/pages/supported-tracers. ">
+      content="Understand how the code is running. Products: Zipkin, CNCF Jaeger. More info can be found at http://opentracing.io/documentation/pages/supported-tracers. ">
     <bounds
         x="1968"
         y="387"
@@ -1329,11 +1329,11 @@
       id="3a60d3a0-5e8b-48cb-a946-2d87da2dfb5b"
       targetConnections="d4cd90fe-6f3b-43c0-a585-dc2d2a2d6956"
       textAlignment="1"
-      content="Test your system to the latest patches and meet organization compliance. Products: OWASP Jenkins Plugin.">
+      content="Test your system to the latest patches and meet organization compliance. Products: OWASP Jenkins Plugin, Arachni.">
     <bounds
-        x="492"
+        x="396"
         y="900"
-        width="209"
+        width="305"
         height="80"/>
   </children>
   <children
@@ -1819,7 +1819,7 @@
       id="8811eb53-6c9a-441b-aa8a-50a9a8e86691"
       targetConnections="f5847f79-f2a3-47bb-ba7a-1cbf9c3340f6"
       textAlignment="1"
-      content="Robot testing of the performance NFRs features of your system. Products: JMeter.">
+      content="Robot testing of the performance NFRs features of your system. Products: JMeter, Gattling.">
     <bounds
         x="-120"
         y="694"
