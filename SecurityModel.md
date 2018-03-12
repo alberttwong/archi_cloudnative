@@ -18,3 +18,6 @@ https://github.com/Netflix/Scumblr
 
 Providence is a system for code commit & bug system monitoring. It is deployed within an organization to monitor code commits for security (or other) concerns, via customizable plugins. A plugin performs logic whenever a commit occurs.
 https://github.com/salesforce/Providence
+
+kube-monkey is an implementation of Netflix's Chaos Monkey for Kubernetes clusters. It randomly deletes Kubernetes pods in the cluster encouraging and validating the development of failure-resilient services.
+https://github.com/asobti/kube-monkey
