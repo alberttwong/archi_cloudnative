@@ -130,7 +130,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="1c699ca3-5495-44d8-a097-3a0b21deb52d"
-          targetConnections="32ebd087-60b3-4b07-a96c-2333961104f6 01eb8a6a-f9ff-45f6-88f7-13f05f471db0 dc247b2c-c9cb-4dff-8d4f-b9a608ebecf0"
+          targetConnections="32ebd087-60b3-4b07-a96c-2333961104f6 01eb8a6a-f9ff-45f6-88f7-13f05f471db0 dc247b2c-c9cb-4dff-8d4f-b9a608ebecf0 89145ec7-72b0-458c-ac86-61eca94b2361"
           fillColor="#75d5ff">
         <bounds
             x="12"
@@ -197,7 +197,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="03f02a88-d9ac-4f2d-93a4-f31939eb2647"
       textAlignment="1"
-      content="Architecture:  We use the OCP AWS Reference Architecture as the template to build the OCP clusters.   We have 2 OCP clusters (one in AWS Region 1 and another in AWS Region 2) and 2 Red Hat CNS clusters (one in AWS Region 1 and another in AWS Region 2) and Ansible Tower.&#xA;&#xA;Problem: You need to move 3 items to recover an OCP environment.   You need compute/projects, networking and storage.&#xA;">
+      content="Architecture:  We use the OCP AWS Reference Architecture as the template to build the OCP clusters.   We have 2 OCP clusters (one in AWS Region 1 and another in AWS Region 2) and 2 Red Hat CNS clusters (one in AWS Region 1 and another in AWS Region 2) and Ansible Tower.&#xA;&#xA;Problem: You need to move 3 items to recover an OCP environment.   You need compute/projects, networking and storage.&#xA;&#xA;Answer: Backup all the project files and project data from the 1st OCP cluster and then restore that in the 2nd OCP cluster.&#xA;">
     <bounds
         x="156"
         y="537"
@@ -317,13 +317,44 @@
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_080b44c6-eaf2-4a60-8b3f-6f05ac47bc59.xml#080b44c6-eaf2-4a60-8b3f-6f05ac47bc59"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="60fe320b-9263-4764-bf54-8a16ebcd0495"
+        source="1574fe8c-cace-462c-8449-87ef1a871c01"
+        target="918c475d-b6ba-4383-bdf0-a813bb550fa5">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_5cdc5757-6f0a-4dc5-8ca7-e635896cc1c4.xml#5cdc5757-6f0a-4dc5-8ca7-e635896cc1c4"/>
+    </sourceConnections>
     <bounds
         x="781"
-        y="360"
+        y="348"
         width="170"
         height="55"/>
     <archimateElement
         xsi:type="archimate:TechnologyProcess"
         href="TechnologyProcess_0fa6aacb-4b97-4b6a-beb5-a17510d23ac0.xml#0fa6aacb-4b97-4b6a-beb5-a17510d23ac0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="918c475d-b6ba-4383-bdf0-a813bb550fa5"
+      targetConnections="60fe320b-9263-4764-bf54-8a16ebcd0495">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="89145ec7-72b0-458c-ac86-61eca94b2361"
+        source="918c475d-b6ba-4383-bdf0-a813bb550fa5"
+        target="1c699ca3-5495-44d8-a097-3a0b21deb52d">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_5dac7aef-ad8f-4446-94fc-d531878742b5.xml#5dac7aef-ad8f-4446-94fc-d531878742b5"/>
+    </sourceConnections>
+    <bounds
+        x="781"
+        y="432"
+        width="170"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:TechnologyService"
+        href="TechnologyService_bd5c5dac-cfda-498c-9149-1d3a5c7a4b27.xml#bd5c5dac-cfda-498c-9149-1d3a5c7a4b27"/>
   </children>
 </archimate:ArchimateDiagramModel>
