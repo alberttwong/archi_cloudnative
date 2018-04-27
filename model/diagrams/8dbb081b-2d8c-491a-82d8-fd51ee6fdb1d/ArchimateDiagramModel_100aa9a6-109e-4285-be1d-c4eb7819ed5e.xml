@@ -68,7 +68,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="119070c5-0ce0-4b52-8e0a-9f511912fdd6"
-        targetConnections="1ef2b2a1-df25-47c3-89c4-6d6fc44e4e61">
+        targetConnections="1ef2b2a1-df25-47c3-89c4-6d6fc44e4e61 7ae89230-3065-447b-9a75-39132ecfb908">
       <bounds
           x="144"
           y="36"
@@ -166,7 +166,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="61ca93b3-b468-4fcd-9e5d-8d98b85f6b0c"
-        targetConnections="813472fd-10d1-4b26-ad91-b9344fe768d0">
+        targetConnections="813472fd-10d1-4b26-ad91-b9344fe768d0 7d1d8cad-9079-47c0-9e6b-0f2c40ffff56">
       <bounds
           x="144"
           y="36"
@@ -229,7 +229,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="b7828982-eb0f-43c8-8726-df68292bfa4c"
-        targetConnections="ba0f5c34-a448-4c0a-9137-1cd75ea1ad87">
+        targetConnections="ba0f5c34-a448-4c0a-9137-1cd75ea1ad87 262d4821-c801-4f8f-b44c-924a11afc666">
       <bounds
           x="144"
           y="36"
@@ -597,16 +597,28 @@
       xsi:type="archimate:DiagramModelNote"
       id="4632a501-2343-4e51-8e5c-df8b85d00d19"
       textAlignment="1"
-      content="The OCP Metrics and Logging (EFK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.">
+      content="The OCP Metrics and Logging (EFK) feature requires containers to be deployed with AWS EBS Storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.  Metrics and Logging is nosted on the Infrastructure node.">
     <sourceConnections
         id="c2ce1906-9d19-4c2b-b9cf-80bc5c2faf43"
         source="4632a501-2343-4e51-8e5c-df8b85d00d19"
         target="49b4aec7-07bd-4006-8eca-024d1b941b0d"/>
+    <sourceConnections
+        id="7ae89230-3065-447b-9a75-39132ecfb908"
+        source="4632a501-2343-4e51-8e5c-df8b85d00d19"
+        target="119070c5-0ce0-4b52-8e0a-9f511912fdd6"/>
+    <sourceConnections
+        id="262d4821-c801-4f8f-b44c-924a11afc666"
+        source="4632a501-2343-4e51-8e5c-df8b85d00d19"
+        target="b7828982-eb0f-43c8-8726-df68292bfa4c"/>
+    <sourceConnections
+        id="7d1d8cad-9079-47c0-9e6b-0f2c40ffff56"
+        source="4632a501-2343-4e51-8e5c-df8b85d00d19"
+        target="61ca93b3-b468-4fcd-9e5d-8d98b85f6b0c"/>
     <bounds
         x="1032"
         y="600"
         width="253"
-        height="109"/>
+        height="133"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"

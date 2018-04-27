@@ -44,7 +44,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="6bff925f-00a5-42ac-b679-22121d108e13"
-          targetConnections="acf5540b-aa5e-4f34-b160-9382cd0e63a8 ac285e9a-e78f-4379-bbc3-c84f5873f840">
+          targetConnections="acf5540b-aa5e-4f34-b160-9382cd0e63a8 ac285e9a-e78f-4379-bbc3-c84f5873f840 26a17c81-8926-44fc-8778-d7734a25c424">
         <sourceConnections
             id="d7f67307-8a32-4f7f-a9f0-f24e5744a4d4"
             source="6bff925f-00a5-42ac-b679-22121d108e13"
@@ -492,7 +492,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="2df77903-a9aa-49d2-b14e-c0ee21050087"
-        targetConnections="a1a780b2-17e0-4d57-9398-06c39e515958 92186c6f-f626-4e50-87fc-21f2fd1d4ec8">
+        targetConnections="a1a780b2-17e0-4d57-9398-06c39e515958 92186c6f-f626-4e50-87fc-21f2fd1d4ec8 a01ef2bf-acf4-42d4-9c69-47eb76799c64">
       <bounds
           x="143"
           y="36"
@@ -795,7 +795,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="92056c31-5a12-4e21-9a63-6342ba337518"
-        targetConnections="9d355650-2bbe-46df-bdc0-5bc8a3919991 5b86045d-e4eb-48df-bbeb-838fd22ac7ab">
+        targetConnections="9d355650-2bbe-46df-bdc0-5bc8a3919991 5b86045d-e4eb-48df-bbeb-838fd22ac7ab 900ef782-66cd-4f20-b690-ce09debf06f9">
       <bounds
           x="144"
           y="36"
@@ -1270,8 +1270,8 @@
       textAlignment="1"
       content="Data will be replicated peer to peer by RH Storage.  When more capacity or performance is needed, we can up the EC2 instance type or draw on more storage via AWS EBS.">
     <bounds
-        x="672"
-        y="750"
+        x="708"
+        y="752"
         width="133"
         height="182"/>
   </children>
@@ -1302,10 +1302,10 @@
       textAlignment="1"
       content="Red Hat Storage will draw storage from AWS EBS.">
     <bounds
-        x="405"
+        x="384"
         y="840"
-        width="220"
-        height="92"/>
+        width="313"
+        height="36"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1353,11 +1353,11 @@
       id="25cc188d-c6ed-4f66-803f-5f89eb8210a2"
       targetConnections="7da3bce4-f950-40a0-b084-da3885913a12"
       textAlignment="1"
-      content="Application container are t2.large (2 vCPU, 8gb mem) on RHEL Atomic.  With 6 nodes, you have a total capacity of 48gb.   Most containers are 2gb therefore 24 containers can be moving across 3 zones. &#xA;&#xA;Application containers can be used to host applications, building new containers, RH Single Sign On, Jenkins server (CI/CD), the OCP aggregated logging stack (EFK), the OCP metrics stack, JBoss middleware, databases and any other docker based containers.">
+      content="Application container are t2.large (2 vCPU, 8gb mem) on RHEL Atomic.  With 6 nodes, you have a total capacity of 48gb.   Most containers are 2gb therefore 24 containers can be moving across 3 zones. &#xA;&#xA;Application containers can be used to host applications, building new containers, RH Single Sign On, Jenkins server (CI/CD), JBoss middleware, databases and any other docker based containers.">
     <bounds
-        x="816"
+        x="852"
         y="753"
-        width="361"
+        width="325"
         height="179"/>
   </children>
   <children
@@ -1828,5 +1828,28 @@
         y="12"
         width="206"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="f0c24c76-29fa-45f9-a91d-0f0b59c42f20"
+      textAlignment="1"
+      content="OCP aggregated logging stack (EFK), the OCP metrics stack runs on the OCP Infrastructure node.">
+    <sourceConnections
+        id="26a17c81-8926-44fc-8778-d7734a25c424"
+        source="f0c24c76-29fa-45f9-a91d-0f0b59c42f20"
+        target="6bff925f-00a5-42ac-b679-22121d108e13"/>
+    <sourceConnections
+        id="900ef782-66cd-4f20-b690-ce09debf06f9"
+        source="f0c24c76-29fa-45f9-a91d-0f0b59c42f20"
+        target="92056c31-5a12-4e21-9a63-6342ba337518"/>
+    <sourceConnections
+        id="a01ef2bf-acf4-42d4-9c69-47eb76799c64"
+        source="f0c24c76-29fa-45f9-a91d-0f0b59c42f20"
+        target="2df77903-a9aa-49d2-b14e-c0ee21050087"/>
+    <bounds
+        x="384"
+        y="888"
+        width="314"
+        height="44"/>
   </children>
 </archimate:ArchimateDiagramModel>
