@@ -510,7 +510,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="1a68caa7-f27a-4831-95b8-3be2d01c5b58"
       textAlignment="1"
-      content="Red Hat OpenShift On Premses Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift (OCP) instance and Red Hat Container Native Storage (CNS) instance deployed in a single data center.">
+      content="Red Hat OpenShift On Premise Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift (OCP) instance and Red Hat Container Native Storage (CNS) instance deployed in a single data center.">
     <bounds
         x="48"
         y="12"
@@ -662,11 +662,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="38ded7fe-6bf3-4a21-aa14-46ee52f47405"
       textAlignment="1"
-      content="Instances should be at a minimum to be 4 vCPU with at least 32 gb of ram.  See documentation for more details.">
+      content="Instances should be at a minimum to be 4 vCPU with at least 32 gb of ram and 40 gb of disk.  See documentation for more details.">
     <bounds
-        x="684"
+        x="672"
         y="12"
-        width="205"
+        width="217"
         height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
