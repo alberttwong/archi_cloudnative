@@ -577,7 +577,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="acf77646-1071-4693-98b8-5e6dfb72e9ee"
       textAlignment="1"
-      content="The OCP Metrics and Logging (EFK) feature requires containers to be deployed with block storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.  Metrics and Logging is nosted on the Infrastructure node.">
+      content="The OCP Metrics and Logging (EFK) feature requires containers to be deployed on block storage.   Fault tolerant logging requires 3 containers.  In this topology, it would be 3 containers across 3 AWS AZs.  Metrics and Logging is nosted on the OCP Infrastructure node.">
     <sourceConnections
         id="3e054983-a268-42f9-bb4d-9e9a475248e5"
         source="acf77646-1071-4693-98b8-5e6dfb72e9ee"
@@ -655,11 +655,11 @@
       id="bff1370d-bb33-459d-af2d-77842d525808"
       targetConnections="36a1c047-e66b-4f66-8ed2-c0fafd9cbedc"
       textAlignment="1"
-      content="Red Hat CNS runs within a OCP Application Node. ">
+      content="Red Hat CNS runs within a OCP Infrastructure Node.   One CNS instance is deployed in each AWS Availability Zone. ">
     <bounds
-        x="816"
+        x="768"
         y="598"
-        width="185"
-        height="60"/>
+        width="253"
+        height="75"/>
   </children>
 </archimate:ArchimateDiagramModel>
