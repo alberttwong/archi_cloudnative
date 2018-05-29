@@ -375,7 +375,7 @@
     </sourceConnections>
     <bounds
         x="528"
-        y="162"
+        y="168"
         width="205"
         height="55"/>
     <archimateElement
@@ -415,7 +415,7 @@
     </sourceConnections>
     <bounds
         x="840"
-        y="162"
+        y="168"
         width="193"
         height="55"/>
     <archimateElement
@@ -465,7 +465,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="443b71ba-d470-4ed8-9dac-5710329e8a8d"
       textAlignment="1"
-      content="Master Nodes are replicas of each other and are synced via peer to peer.">
+      content="Recommended AWS instance type: r4.xlarge.">
     <bounds
         x="1100"
         y="216"
@@ -510,7 +510,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="163d161c-e48e-468d-81fc-639d2d9cc620"
       textAlignment="1"
-      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift instance and Red Hat Container Native Storage instance deployed in a single region with nodes spread across 3 availability zones for resilience.&#xA;&#xA;AWS Infrastructure Components: https://access.redhat.com/documentation/en-us/reference_architectures/2018/html/deploying_and_managing_openshift_3.9_on_amazon_web_services/components_and_considerations#aws_infrastructure_components &#xA;AWS Charge Model: https://access.redhat.com/documentation/en-us/reference_architectures/2018/html/deploying_and_managing_openshift_3.9_on_amazon_web_services/components_and_considerations#aws_infrastructure_charge_model">
+      content="Red Hat OpenShift AWS Reference Architecture.&#xA;&#xA;The toplogy used in the reference architecture consists of a single Red Hat OpenShift (OCP) instance and Red Hat Container Native Storage (CNS) instance deployed in a single region with nodes spread across 3 availability zones for resilience.&#xA;&#xA;AWS Infrastructure Components: https://access.redhat.com/documentation/en-us/reference_architectures/2018/html/deploying_and_managing_openshift_3.9_on_amazon_web_services/components_and_considerations#aws_infrastructure_components &#xA;AWS Charge Model: https://access.redhat.com/documentation/en-us/reference_architectures/2018/html/deploying_and_managing_openshift_3.9_on_amazon_web_services/components_and_considerations#aws_infrastructure_charge_model">
     <bounds
         x="48"
         y="12"
@@ -522,43 +522,13 @@
       id="ead68ac2-f57f-404c-9395-c2b320b37783"
       targetConnections="043cb34e-6d11-4a53-bdd1-c911e295188c">
     <bounds
-        x="192"
-        y="162"
+        x="120"
+        y="204"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Device"
         href="Device_5cdf8728-b799-4c6e-acea-df22df128c07.xml#5cdf8728-b799-4c6e-acea-df22df128c07"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="be06d0de-2479-4450-bd58-af30530b8427"
-      targetConnections="2556a0b2-ac31-47b7-9447-46e6b8843be4 9ad7e50f-65f2-4297-8193-148d11ebf6c2">
-    <sourceConnections
-        id="c8b73501-eb23-4cf1-a3c6-5daca82aa869"
-        source="be06d0de-2479-4450-bd58-af30530b8427"
-        target="b22ef634-0b75-45a1-8bca-384a50096517"/>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="e0b0b4cb-fa04-46af-9df6-a1d957e26a8b"
-        source="be06d0de-2479-4450-bd58-af30530b8427"
-        target="3df87e39-7204-4747-90d2-cc557793a3ad">
-      <archimateRelationship
-          xsi:type="archimate:FlowRelationship"
-          href="FlowRelationship_0d75ca3e-d63a-44a3-940d-f108521d475a.xml#0d75ca3e-d63a-44a3-940d-f108521d475a"/>
-    </sourceConnections>
-    <sourceConnections
-        id="36a1c047-e66b-4f66-8ed2-c0fafd9cbedc"
-        source="be06d0de-2479-4450-bd58-af30530b8427"
-        target="bff1370d-bb33-459d-af2d-77842d525808"/>
-    <bounds
-        x="504"
-        y="600"
-        width="253"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:TechnologyService"
-        href="TechnologyService_3af3b667-f6d8-473f-a7bf-e0d358023717.xml#3af3b667-f6d8-473f-a7bf-e0d358023717"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -604,10 +574,10 @@
     <sourceConnections
         id="2556a0b2-ac31-47b7-9447-46e6b8843be4"
         source="21ffe409-6050-4818-887b-c47b58176c7d"
-        target="be06d0de-2479-4450-bd58-af30530b8427"/>
+        target="7eb0250e-b1ac-4eb9-a61d-cf887c35b002"/>
     <bounds
-        x="84"
-        y="612"
+        x="228"
+        y="603"
         width="241"
         height="50"/>
   </children>
@@ -618,7 +588,7 @@
       textAlignment="1"
       content="Red Hat CNS is used to provide container persistent volumes.">
     <bounds
-        x="84"
+        x="228"
         y="672"
         width="241"
         height="49"/>
@@ -643,7 +613,7 @@
     <sourceConnections
         id="9ad7e50f-65f2-4297-8193-148d11ebf6c2"
         source="2e99e462-4570-4ab8-b782-41414bd999b1"
-        target="be06d0de-2479-4450-bd58-af30530b8427"/>
+        target="7eb0250e-b1ac-4eb9-a61d-cf887c35b002"/>
     <bounds
         x="768"
         y="678"
@@ -661,5 +631,35 @@
         y="598"
         width="253"
         height="75"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7eb0250e-b1ac-4eb9-a61d-cf887c35b002"
+      targetConnections="2556a0b2-ac31-47b7-9447-46e6b8843be4 9ad7e50f-65f2-4297-8193-148d11ebf6c2">
+    <sourceConnections
+        id="c8b73501-eb23-4cf1-a3c6-5daca82aa869"
+        source="7eb0250e-b1ac-4eb9-a61d-cf887c35b002"
+        target="b22ef634-0b75-45a1-8bca-384a50096517"/>
+    <sourceConnections
+        id="36a1c047-e66b-4f66-8ed2-c0fafd9cbedc"
+        source="7eb0250e-b1ac-4eb9-a61d-cf887c35b002"
+        target="bff1370d-bb33-459d-af2d-77842d525808"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="e0b0b4cb-fa04-46af-9df6-a1d957e26a8b"
+        source="7eb0250e-b1ac-4eb9-a61d-cf887c35b002"
+        target="3df87e39-7204-4747-90d2-cc557793a3ad">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_0d75ca3e-d63a-44a3-940d-f108521d475a.xml#0d75ca3e-d63a-44a3-940d-f108521d475a"/>
+    </sourceConnections>
+    <bounds
+        x="492"
+        y="600"
+        width="253"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:TechnologyService"
+        href="TechnologyService_5d24b497-5a12-4612-9d0d-2228f081afa2.xml#5d24b497-5a12-4612-9d0d-2228f081afa2"/>
   </children>
 </archimate:ArchimateDiagramModel>
