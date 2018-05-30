@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Data Center View On-Prem Reference Architecture (OCP, CF, CNS)"
+    name="Operational Model: Data Center View On-Premise Reference Architecture (OCP, CF, CNS)"
     id="56a35f01-1540-48de-8ff4-92476193fd01">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -651,7 +651,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="9bd356b0-56f1-40d6-b1fd-a2ffc1e809b2"
       textAlignment="1"
-      content="Recommended load balancer is F5 (or other supported options). ">
+      content="OCP comes with a load balancer.   However you can use F5 or other supported options. ">
     <bounds
         x="900"
         y="12"
