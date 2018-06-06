@@ -132,20 +132,8 @@
     <bounds
         x="24"
         y="336"
-        width="409"
+        width="565"
         height="277"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="9b521bb6-8dfe-4990-b136-6e9bdfaba577">
-      <bounds
-          x="408"
-          y="36"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Node"
-          href="Node_e72b72c1-a6e9-4f84-aaec-d7996ff0da6e.xml#e72b72c1-a6e9-4f84-aaec-d7996ff0da6e"/>
-    </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="ddb2119a-0caf-4642-a575-5211dad45556">
@@ -772,5 +760,28 @@
         y="766"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="ccebd01a-d447-4c7e-80d5-c2f171f4d502"
+      name="Data Center Rack Any"
+      textAlignment="1">
+    <bounds
+        x="1308"
+        y="336"
+        width="145"
+        height="277"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="9b521bb6-8dfe-4990-b136-6e9bdfaba577">
+      <bounds
+          x="12"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Node"
+          href="Node_e72b72c1-a6e9-4f84-aaec-d7996ff0da6e.xml#e72b72c1-a6e9-4f84-aaec-d7996ff0da6e"/>
+    </children>
   </children>
 </archimate:ArchimateDiagramModel>
