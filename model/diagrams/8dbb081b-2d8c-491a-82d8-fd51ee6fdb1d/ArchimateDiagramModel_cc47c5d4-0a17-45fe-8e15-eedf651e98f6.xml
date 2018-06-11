@@ -7,6 +7,7 @@
       xsi:type="archimate:DiagramModelGroup"
       id="eac8902b-af6d-4168-b573-300e5b5630f6"
       name="AWS Availability Zone A"
+      targetConnections="bf478dba-f34b-46b9-82e1-0f0331e7b223"
       textAlignment="1">
     <bounds
         x="516"
@@ -284,5 +285,20 @@
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_25d315c0-4537-4575-9ba8-828d5917416d.xml#25d315c0-4537-4575-9ba8-828d5917416d"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="beb09e5e-1354-4a05-8b2f-ad83efddeca6"
+      textAlignment="1"
+      content="There will be 3X of the above. The OpenShift reference architecture recommends the OpenShift cluster to be spread across 3 physical/virtual data centers for high availability.">
+    <sourceConnections
+        id="bf478dba-f34b-46b9-82e1-0f0331e7b223"
+        source="beb09e5e-1354-4a05-8b2f-ad83efddeca6"
+        target="eac8902b-af6d-4168-b573-300e5b5630f6"/>
+    <bounds
+        x="948"
+        y="419"
+        width="265"
+        height="122"/>
   </children>
 </archimate:ArchimateDiagramModel>
