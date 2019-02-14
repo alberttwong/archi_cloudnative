@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="DevSecOps on OpenShift with Jenkins"
+    name="Continuous Integration and Continuous Deployment (DevSecOps) Detail on OpenShift with Jenkins"
     id="6c8b75c2-12dd-480f-8cae-b2fda7106179">
   <children
       xsi:type="archimate:DiagramModelGroup"
