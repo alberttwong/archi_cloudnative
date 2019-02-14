@@ -1,6 +1,7 @@
 # archi_cloudnative
-Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management. Infrastructure components include Red Hat OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Java Web Server, Red Hat JBoss Enterprise Application Server, Red Hat JBoss Business Rules Management, Red Hat JBoss Data Grid, Red Hat JBoss Data Virtualization and Red Hat Ansible.  Includes material and architectural thinking from the following books.
+Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management. Infrastructure components include Red Hat OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Java Web Server, Red Hat JBoss Enterprise Application Server, Red Hat JBoss Business Rules Management, Red Hat JBoss Data Grid, Red Hat JBoss Data Virtualization and Red Hat Ansible.  Includes material and architectural thinking from the following books, papers and articles.
 
+### Architecture
 * https://www.openshift.com/promotions/for-developers.html
 * https://www.openshift.com/promotions/devops-with-openshift.html
 * https://developers.redhat.com/promotions/microservices-for-java-developers/
@@ -10,6 +11,14 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 * https://content.pivotal.io/ebooks/beyond-the-12-factor-app
 * https://thenewkingmakers.com
 * https://insights.sei.cmu.edu/devops/2015/04/devops-case-study-netflix-and-the-chaos-monkey.html
+
+### Continuous Integration and Continuous deployment (CI/CD) and DevSecOps
+* From the Red Hat reference architecture team (https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/application_cicd_on_openshift_container_platform_with_jenkins/index)
+* From the Red Hat Innovation Labs (https://github.com/rht-labs/labs-ci-cd, https://github.com/redhat-cop/container-pipelines)
+* Department of Homeland Security DevSecOps using OpenShift (from Lucy Kerner)
+* Doing it raw with the Jenkins Client Plugin for OpenShift (all the above extends this plugin - https://github.com/openshift/jenkins-client-plugin)
+* Booz Allen (https://github.com/boozallen/jenkins-templating-engine)
+* Blue Ocean (from cloudbees themselves)
 
 ## Sample Diagrams
 ### System Context
