@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Continuous Integration and Continuous Deployment (CI/CD) on OpenShift with Jenkins"
+    name="Continuous Integration and Continuous Deployment (CI CD) on OpenShift with Jenkins"
     id="4db35b1b-4f00-45bf-984e-60b1f4d3e885">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
