@@ -47,6 +47,9 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 ### Operational Model: Cloud Native on AWS Reference Architecture
 ![Operational Model Detail: Cloud Natve on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20Detail.png)
 
+### DevSecOps with CI/CD using Jekins and OpenShift
+![DevSecOps with CI/CD using Jekins and OpenShift](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Continuous%20Integration%20and%20Continuous%20Deployment%20(DevSecOps)%20Detail%20on%20OpenShift%20with%20Jenkins.png)
+
 ### What is Archi
 The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
 
