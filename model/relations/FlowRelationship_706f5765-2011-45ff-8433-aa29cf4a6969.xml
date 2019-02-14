@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Uploads"
+    id="706f5765-2011-45ff-8433-aa29cf4a6969">
+  <source
+      xsi:type="archimate:TechnologyProcess"
+      href="TechnologyProcess_1bf640a0-d246-4bbc-b1dd-28d5ca32f528.xml#1bf640a0-d246-4bbc-b1dd-28d5ca32f528"/>
+  <target
+      xsi:type="archimate:SystemSoftware"
+      href="SystemSoftware_4ba56b95-abfc-4539-9d6f-871cca9d313b.xml#4ba56b95-abfc-4539-9d6f-871cca9d313b"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Curates"
+    id="209c008e-af8a-402a-b8f1-426e3bc1da46">
+  <source
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_7729bc30-3ad5-4601-8480-7f554f93bce3.xml#7729bc30-3ad5-4601-8480-7f554f93bce3"/>
+  <target
+      xsi:type="archimate:SystemSoftware"
+      href="SystemSoftware_50843b95-cfda-4678-8afc-56a53797a89d.xml#50843b95-cfda-4678-8afc-56a53797a89d"/>
+</archimate:FlowRelationship>

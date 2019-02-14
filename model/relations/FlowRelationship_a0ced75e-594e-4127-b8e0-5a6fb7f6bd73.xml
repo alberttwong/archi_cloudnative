@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pushes"
+    id="a0ced75e-594e-4127-b8e0-5a6fb7f6bd73">
+  <source
+      xsi:type="archimate:Grouping"
+      href="Grouping_8e50b65c-2831-47a3-8312-f459f6f43e65.xml#8e50b65c-2831-47a3-8312-f459f6f43e65"/>
+  <target
+      xsi:type="archimate:SystemSoftware"
+      href="SystemSoftware_50843b95-cfda-4678-8afc-56a53797a89d.xml#50843b95-cfda-4678-8afc-56a53797a89d"/>
+</archimate:FlowRelationship>
