@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Container Push"
+    id="dcf87615-9842-44f8-91d2-408351474be0">
+  <source
+      xsi:type="archimate:Grouping"
+      href="Grouping_7a6458ca-3f6b-4ccf-9c3f-5306474edf87.xml#7a6458ca-3f6b-4ccf-9c3f-5306474edf87"/>
+  <target
+      xsi:type="archimate:SystemSoftware"
+      href="SystemSoftware_50843b95-cfda-4678-8afc-56a53797a89d.xml#50843b95-cfda-4678-8afc-56a53797a89d"/>
+</archimate:FlowRelationship>

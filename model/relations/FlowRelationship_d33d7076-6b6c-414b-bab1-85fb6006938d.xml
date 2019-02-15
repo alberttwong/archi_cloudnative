@@ -1,11 +1,11 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="API calls"
-    id="657d94bf-d9a1-4a11-98d1-8f506364cb89">
+    name="Container Pull"
+    id="d33d7076-6b6c-414b-bab1-85fb6006938d">
   <source
-      xsi:type="archimate:ApplicationService"
-      href="ApplicationService_b8fa08d7-219b-4a03-aa80-da48afcab801.xml#b8fa08d7-219b-4a03-aa80-da48afcab801"/>
+      xsi:type="archimate:SystemSoftware"
+      href="SystemSoftware_50843b95-cfda-4678-8afc-56a53797a89d.xml#50843b95-cfda-4678-8afc-56a53797a89d"/>
   <target
       xsi:type="archimate:Grouping"
       href="Grouping_3ce7d695-443b-4396-9b62-fca8de74a811.xml#3ce7d695-443b-4396-9b62-fca8de74a811"/>
