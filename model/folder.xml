@@ -3,4 +3,4 @@
     name="Cloud Native Architecture"
     id="4bf46705-aa42-480c-8f92-ebfc45eef027"
     purpose="Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud Native Applications, 12/15 Factor Applications with CI/CD/CS, monitoring and log management. Infrastructure components include Red Hat OpenShift, Red Hat Storage, Red Hat Cloudforms, Red Hat JBoss Middleware."
-    version="4.0.1"/>
+    version="4.4.0"/>
