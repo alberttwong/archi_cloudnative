@@ -54,7 +54,7 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
 
 ## What is Red Hat OpenShift
-Red Hat OpenShift is a container-as-a-platform made by Red Hat.   It's an enterprise version of Kubernetes, Docker, Jenkins, monitoring, log aggregation, self service dashboard and more all rolled into one single product. 
+Red Hat OpenShift is a container-as-a-platform made by Red Hat.   It's an enterprise version of Kubernetes, Containers (built on CRI-O), CI/CD (can use Jenkins or Tekton), monitoring, log aggregation, self service dashboard and more all rolled into one single product. 
 
 ## How to load and extend this model 
 Run Archi and install the collaboration plugin.  You can get the collabration git plugin at the plugin page.   Just click on "import remote model to workspace", supply this git project URL, git username and password.  That should be it.
