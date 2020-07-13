@@ -24,3 +24,5 @@ Test Driven Development?
 All code on commit does a CI/CD and runs all the tests?
 
 Use RHEL (rpm) or atomic host (containerized) OCP installation or mix and match per https://access.redhat.com/solutions/3189682?
+
+Single or cluster wide solution for components like CI/CD, logging and monitoring.
