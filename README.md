@@ -37,17 +37,17 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 ### Component Model: Cloud Native Data
 ![Component Model: Cloud Native Applications Data Centric](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Data%20Centric.png)
 
-### Deployment Diagram: Red Hat OpenShift On-Premise Reference Architecture
+### Deployment Model: Red Hat OpenShift On-Premise Reference Architecture
 ![Operational Model: OpenShift with RH Storage on Bare Metal](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20On-Prem%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
 
-### Deployment Diagram: Red Hat OpenShift on AWS Reference Architecture
+### Deployment Model: Red Hat OpenShift on AWS Reference Architecture
 ![Operational Model: OpenShift with AWS Storage on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture.png)
 ![Operational Model: OpenShift with Red Hat Storage on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
 
-### Deployment Diagram: Cloud Native on AWS Reference Architecture
+### Deployment Model: Cloud Native on AWS Reference Architecture
 ![Operational Model Detail: Cloud Natve on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20Detail.png)
 
-### DevSecOps with CI/CD using Jekins and OpenShift
+### Journey Map: DevSecOps with CI/CD using Jekins and OpenShift
 ![DevSecOps with CI/CD using Jekins and OpenShift](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Continuous%20Integration%20and%20Continuous%20Deployment%20(DevSecOps)%20Detail%20on%20OpenShift%20with%20Jenkins.png)
 
 ### What is Archi
