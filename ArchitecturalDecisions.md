@@ -1,3 +1,6 @@
+In software engineering and software architecture design, architectural decisions are design decisions that address architecturally significant requirements; they are perceived as hard to make and/or costly to change. https://en.wikipedia.org/wiki/Architectural_decision
+
+
 Books
 * https://www.openshift.com/promotions/for-developers.html
 * https://www.openshift.com/promotions/devops-with-openshift.html
