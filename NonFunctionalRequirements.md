@@ -1,3 +1,6 @@
+In systems engineering and requirements engineering, a non-functional requirement (NFR) is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors. They are contrasted with functional requirements that define specific behavior or functions. The plan for implementing functional requirements is detailed in the system design. The plan for implementing non-functional requirements is detailed in the system architecture, because they are usually architecturally significant requirements. https://en.wikipedia.org/wiki/Non-functional_requirement
+
+
 The qualities and constraints (the NFRs) that we impose on the IT system:
 * Runtime qualities
 * Non-runtime qualities
