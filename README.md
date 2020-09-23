@@ -44,7 +44,7 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 ![Operational Model: OpenShift with AWS Storage on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture.png)
 ![Operational Model: OpenShift with Red Hat Storage on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
 
-### Deployment Model: Cloud Native on AWS Reference Architecture
+### Deployment Model: Red Hat Cloud Native (OCP 3.x, Ansible 2.x, Satellite 6.x) on AWS Reference Architecture
 ![Operational Model Detail: Cloud Natve on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20Detail.png)
 
 ### Journey Map: DevSecOps with CI/CD using Jekins and OpenShift
