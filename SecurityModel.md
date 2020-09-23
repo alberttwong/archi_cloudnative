@@ -1,3 +1,5 @@
+A computer security model is a scheme for specifying and enforcing security policies. A security model may be founded upon a formal model of access rights, a model of computation, a model of distributed computing, or no particular theoretical grounding at all. A computer security model is implemented through a computer security policy. https://en.wikipedia.org/wiki/Computer_security_model
+
 ### Red Hat OpenShift on AWS Reference Architecture
 VPC, Security Groups, IAM and more in the reference architecture.  https://access.redhat.com/documentation/en-us/reference_architectures/2017/html/deploying_openshift_container_platform_3.5_on_amazon_web_services/index
 
