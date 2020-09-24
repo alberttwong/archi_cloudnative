@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Disaster Recovery using Red Hat Container Ready Storage"
+    name="Deployment Model: Disaster Recovery using Red Hat Container Ready Storage"
     id="9492a78b-9c8f-4b65-a8f6-e1e27d7b0116">
   <children
       xsi:type="archimate:DiagramModelGroup"

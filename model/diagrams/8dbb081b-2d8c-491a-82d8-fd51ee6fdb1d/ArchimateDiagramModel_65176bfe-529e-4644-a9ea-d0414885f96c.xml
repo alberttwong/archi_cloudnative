@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Node View"
+    name="Deployment Model: Node View"
     id="65176bfe-529e-4644-a9ea-d0414885f96c">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Data Center View Detail"
+    name="Deployment Model: Data Center View OCP 3.x Detail"
     id="fe4719e5-9d0d-484f-9050-eeaa851e13ea"
     documentation="https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/deploying_and_managing_openshift_container_platform_3.6_on_amazon_web_services/&#xA;&#xA;Hosts&#xA;2 baston (t2.micro)&#xA;3 OCP master (no cost with OCP, m4.xlarge)&#xA;3 OCP infrastructure (no cost with OCP, m4.xlarge)&#xA;6 OCP application (12 cores of OCP, t2.large)&#xA;6 Cloudforms (no cost with OCP, m4.xlarge)&#xA;3 Storage (i3.xlarge)&#xA;6 Ansible Tower (m4.xlarge)&#xA;3 Satellite (i3.xlarge)&#xA;==&#xA;Lab -> 26 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 32 hosts&#xA;Non production -> 26 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts = 32 hosts&#xA;Production with DR -> 26 &quot;infastructure&quot; hosts to support OCP + 6 OCP application hosts + 3 additional storage (another AWS region, other public cloud or on premises data center) + 1 Ansible Tower DR + 1 Satellite Server = 37 hosts &#xA;&#xA;AWS VPC Networking&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.&#xA;&#xA;AWS Security Group&#xA;Refer to reference architecture.  More may be needed for Ansible, Cloudforms, Red Hat Storage and Red Hat Satellite.">
   <children

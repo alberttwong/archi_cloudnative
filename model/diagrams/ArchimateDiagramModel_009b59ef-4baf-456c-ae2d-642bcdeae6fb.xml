@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Containers-as-a-Service View"
+    name="Deployment Model: Containers-as-a-Service View"
     id="009b59ef-4baf-456c-ae2d-642bcdeae6fb">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

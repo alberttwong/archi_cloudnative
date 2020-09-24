@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Data Center View Detail with Web Traffic (Phase 2 ) "
+    name="Deployment Model: Data Center View OCP 3.x Detail with Web Traffic (Phase 2 ) "
     id="8c0f9db6-1e46-463a-8c50-dc752b48cddd"
     documentation="https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/deploying_and_managing_openshift_container_platform_3.6_on_amazon_web_services/&#xA;">
   <children

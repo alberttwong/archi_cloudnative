@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: OpenShift and external database"
+    name="Deployment Model: OpenShift 3.x and external database"
     id="cc47c5d4-0a17-45fe-8e15-eedf651e98f6">
   <children
       xsi:type="archimate:DiagramModelGroup"

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: RH OpenShift + RH Virtualization + RH Storage"
+    name="Deployment Model: RH OpenShift 3.x + RH Virtualization + RH Storage"
     id="0efc6edd-cbc5-4cf9-bf13-d8b13d3e6c1a">
   <children
       xsi:type="archimate:DiagramModelGroup"

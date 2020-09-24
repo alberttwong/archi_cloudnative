@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Data Center View AWS Reference Architecture (OCP, CF, CNS)"
+    name="Deployment Model: Data Center View OCP 3.x AWS Reference Architecture (OCP, CF, CNS)"
     id="cb721179-bd49-4dd4-a98c-006cafa8d4b8">
   <children
       xsi:type="archimate:DiagramModelGroup"

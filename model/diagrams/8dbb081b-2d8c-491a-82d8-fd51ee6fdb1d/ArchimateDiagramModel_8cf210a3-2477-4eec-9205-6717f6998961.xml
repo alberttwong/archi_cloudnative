@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Operational Model: Disaster Recovery"
+    name="Deployment Model: Disaster Recovery"
     id="8cf210a3-2477-4eec-9205-6717f6998961">
   <children
       xsi:type="archimate:DiagramModelGroup"
