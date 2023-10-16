@@ -64,8 +64,9 @@ Red Hat OpenShift is a container-as-a-platform made by Red Hat.   It's an enterp
 Run Archi and install the collaboration plugin.  You can get the collabration git plugin at the plugin page.   Just click on "import remote model to workspace", supply this git project URL, git username and password.  That should be it.
 
 ## Contributors
-<a href="https://github.com/alberttwong/archi_cloudnative/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=alberttwong/archi_cloudnative" />
+<a href="https://next.ossinsight.io/widgets/official/compose-contributors?repo_id=107446688&limit=200" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-contributors/thumbnail.png?repo_id=107446688&limit=200&image_size=auto&color_scheme=dark" width="655" height="auto">
+    <img alt="Contributors of alberttwong/archi_cloudnative" src="https://next.ossinsight.io/widgets/official/compose-contributors/thumbnail.png?repo_id=107446688&limit=200&image_size=auto&color_scheme=light" width="655" height="auto">
+  </picture>
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
