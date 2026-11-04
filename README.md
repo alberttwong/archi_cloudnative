@@ -26,33 +26,33 @@ Cloud Native Architectural Models using Archi. Contains models for CAAS, Cloud N
 
 ## Sample Diagrams
 ### System Context
-![System Context Cloud Native Application](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/System%20Context:%20Cloud%20Native%20Applications.png)
+![System Context Cloud Native Application](images_docs/System%20Context%20-%20Cloud%20Native%20Applications.png)
 
-![System Context Cloud Native Application Patterns](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/System%20Context:%20Cloud%20Native%20Application%20Patterns.png)
+![System Context Cloud Native Application Patterns](images_docs/System%20Context%20-%20Cloud%20Native%20Application%20Patterns.png)
 
 ### Component Model:
-![Component Model: Cloud Native Applications](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications.png)
+![Component Model: Cloud Native Applications](images_docs/Component%20Model%20-%20Cloud%20Native%20Applications.png)
 
-![Component Model: Cloud Native Applications Layers](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Layers%20with%20Mobile%2C%20Workflow%2C%20Rules.png)
+![Component Model: Cloud Native Applications Layers](images_docs/Component%20Model%20-%20Cloud%20Native%20Applications%20Layers%20with%20Mobile%2C%20Workflow%2C%20Rules.png)
 
 ### Component Model: Cloud Native Software Stack
-![Component Model: Cloud Native Applications Software Stack](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Software.png)
+![Component Model: Cloud Native Applications Software Stack](images_docs/Component%20Model%20-%20Cloud%20Native%20Applications%20Software.png)
 
 ### Component Model: Cloud Native Data
-![Component Model: Cloud Native Applications Data Centric](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Component%20Model:%20Cloud%20Native%20Applications%20Data%20Centric.png)
+![Component Model: Cloud Native Applications Data Centric](images_docs/Component%20Model%20-%20Cloud%20Native%20Applications%20Data%20Centric.png)
 
 ### Deployment Model: Red Hat OpenShift 3.x On-Premise Reference Architecture
-![Operational Model: OpenShift with RH Storage on Bare Metal](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20On-Prem%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
+![Operational Model: OpenShift with RH Storage on Bare Metal](images_docs/Operational%20Model%20-%20Data%20Center%20View%20On-Prem%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
 
 ### Deployment Model: Red Hat OpenShift 3.x on AWS Reference Architecture
-![Operational Model: OpenShift with AWS Storage on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture.png)
-![Operational Model: OpenShift with Red Hat Storage on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20AWS%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
+![Operational Model: OpenShift with AWS Storage on AWS](images_docs/Operational%20Model%20-%20Data%20Center%20View%20AWS%20Reference%20Architecture.png)
+![Operational Model: OpenShift with Red Hat Storage on AWS](images_docs/Operational%20Model%20-%20Data%20Center%20View%20AWS%20Reference%20Architecture%20(OCP%2C%20CF%2C%20CNS).png)
 
 ### Deployment Model: Red Hat Cloud Native (OCP 3.x, Ansible 2.x, Satellite 6.x) on AWS Reference Architecture
-![Operational Model Detail: Cloud Natve on AWS](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Operational%20Model:%20Data%20Center%20View%20Detail.png)
+![Operational Model Detail: Cloud Natve on AWS](images_docs/Operational%20Model%20-%20Data%20Center%20View%20Detail.png)
 
 ### Journey Map: DevSecOps with CI/CD using Jekins and OpenShift
-![DevSecOps with CI/CD using Jekins and OpenShift](https://github.com/alberttwong/archi_cloudnative/blob/master/images_docs/Continuous%20Integration%20and%20Continuous%20Deployment%20(DevSecOps)%20Detail%20on%20OpenShift%20with%20Jenkins.png)
+![DevSecOps with CI/CD using Jekins and OpenShift](images_docs/Continuous%20Integration%20and%20Continuous%20Deployment%20(DevSecOps)%20Detail%20on%20OpenShift%20with%20Jenkins.png)
 
 ### What is Archi
 The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
